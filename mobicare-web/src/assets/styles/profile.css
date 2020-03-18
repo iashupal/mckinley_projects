@@ -1,0 +1,141 @@
+.profile .card-box {
+  /* box-shadow: 0 2px 17px 2px rgba(0, 0, 0, 0.12); */
+  /* -moz-box-shadow: 0 2px 17px 2px rgba(0, 0, 0, 0.12); */
+  /* -webkit-box-shadow: 0 2px 17px 2px rgba(0, 0, 0, 0.12); */
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+  min-height: 212px;
+}
+.card-box.card-boxProfile {
+  min-height: 140px;
+}
+.card-box.card-boxProfile .profile-box1 {
+  padding: 30px;
+}
+.profile .profile-box1 {
+  padding: 45px;
+}
+.profile .profile-box1 img {
+  width: 57px;
+  height: 57px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+.profile .profile-box1 .profile-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #202020;
+}
+.profile .profile-box1 .profile-details {
+  font-size: 14px;
+  color: #626262;
+  line-height: 18px;
+}
+.profile .message-btn-width {
+  width: 130px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 30px;
+  float: right;
+}
+.profile .message-btn-width:hover, .profile .message-btn-width:focus {
+  border-color: #c0c0c0;
+  color: #c0c0c0;
+}
+.profile .message-btn-width span {
+  padding-left: 15px;
+}
+.profile .message-btn-width i {
+  font-size: 14px;
+}
+.profile .common-box {
+  padding: 15px 35px;
+}
+.profile .common-box .head {
+  margin-bottom: 15px;
+}
+.profile .common-box {
+  color: #626262;
+}
+.card-box.right-card {
+  min-height: 55px;
+}
+.profile .common-box .head svg {
+  width: 20px;
+  fill: #696969;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.profile .common-box .confirm {
+  padding-bottom: 0;
+  padding-top: 0;
+  height: 30px;
+}
+.profile .common-box .ant-table-small {
+  border: 0;
+}
+.profile .common-box table {
+  text-align: center;
+}
+.profile .common-box .ant-table-tbody > tr > td,
+.profile .common-box .ant-table-thead > tr > th {
+  border: 0;
+}
+.profile .common-box .ant-table-thead {
+  background-color: #f0f0f0;
+}
+.ant-table-placeholder {
+  border-top: transparent;
+}
+.profile .common-box .ant-table-thead > tr > th {
+  font-weight: 600;
+  color: #696969;
+  text-align: center;
+}
+.profile .common-box .gallery img {
+  width: 91px;
+  height: 91px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+.profile .meas-box {
+  min-height: 376px;
+  margin-bottom: 25px;
+}
+.profile .gallery-box {
+  min-height: 55px;
+}
+.profile .profile-box1 img.profile_img {
+  width: 23px;
+  height: 17px;
+  border-radius: 0;
+  border: transparent;
+}
+.profile .profile-box1 img.profile_call_Img {
+  width: 15px;
+  height: 15px;
+  border-radius: 0;
+  border: transparent;
+}
+.left-card .profile_show_btn {
+  float: right;
+  color: black;
+  border: transparent;
+  box-shadow: 0 0 0 0;
+}
+.gallery-box .profile_images_btn {
+  float: right;
+  border-color: #d9d9d9;
+  height: 30px;
+  box-shadow: 0 0 0 0;
+  color: #202020;
+  padding: 0 10px;
+}
+.profile_appointment{
+  color: #202020;
+}

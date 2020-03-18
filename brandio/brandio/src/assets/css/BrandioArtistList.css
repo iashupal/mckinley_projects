@@ -1,0 +1,87 @@
+.brandio__artist-list {
+  display: grid;
+  grid-template-columns: 283px 1fr;
+  padding-bottom: 275px;
+}
+.brandio__artist-contentbox {
+  background-color: var(--white-smoke);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content min-content;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+}
+.artist-inner {
+  background-color: var(--white-smoke);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+}
+#brandioartistlist .brandiopcard__container {
+  width: 32%;
+}
+.brandio__artist-list .ant-menu-sub > div {
+  display: table;
+}
+.brandio__artist-list .ant-menu-inline {
+  border-right: 0px;
+}
+.brandio__artist-list .ant-menu-submenu-arrow {
+  display: none;
+}
+.brandio__artist-list .filters__heading {
+  font-weight: 400;
+}
+
+.try {
+  text-align: center;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
+  grid-column: span 3;
+}
+.try > .ant-empty {
+  height: 300px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .brandio__artist-list {
+    justify-items: center;
+    grid-template-columns: auto;
+    padding: 20px;
+  }
+  .brandio__artist-contentbox {
+    grid-template-columns: auto;
+    width: 100%;
+    padding: 0px;
+    grid-gap: 10px;
+  }
+  #brandioartistlist .brandioartistlistpcard {
+    width: 100%;
+    padding: 20px;
+  }
+  .search-box-container {
+    padding: 20px;
+  }
+  .artist-inner {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .brandio__artist-list {
+    justify-items: center;
+    grid-template-columns: auto;
+    padding: 20px;
+  }
+  .brandio__artist-contentbox {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+  #brandioartistlist .brandioartistlistpcard {
+    padding: 30px;
+  }
+}

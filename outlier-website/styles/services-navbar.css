@@ -1,0 +1,19 @@
+.insight__section-navbar-small{
+    display:grid;
+    height:4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 4fr 1fr 2fr;
+    background-color:#d6d6c2;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.insight-navbar-small-content{
+     height:3rem;
+     width: 5rem;
+     background-color:  #b8b894;
+}
+.insight-navbar-small-link-to-all-services{
+     height:3rem;
+     width: 5rem;
+     background-color:  #b8b894;
+}

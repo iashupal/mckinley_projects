@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+  .about__section-navbar-small {
+    display: grid;
+    height: 4rem;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0 300px 0 80px;
+    align-items: center;
+    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-navbar-small-content {
+    height: 3rem;
+    width: 8rem;
+    font-size: 15px;
+    align-content: center;
+    font-weight: 300;
+    font-family: Hel-Md;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__section-navbar-small {
+    display: grid;
+    height: 4rem;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0 200px 0 80px;
+    align-items: center;
+    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-navbar-small-content {
+    height: 3rem;
+    width: 7rem;
+    font-size: 12px;
+    align-content: center;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,23 @@
+h1.contactHeroText {
+    margin-top: 22%;
+    margin-left: 10%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 52px;
+    margin-bottom: 22%;
+}
+
+@media screen and (max-width: 767px){
+  h1.contactHeroText {
+    margin-top: 34%;
+    margin-left: 6%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 30px;
+    margin-bottom: 40%;
+}
+}

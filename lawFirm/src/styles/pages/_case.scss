@@ -1,0 +1,1626 @@
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix {
+  content: '';
+  clear: both;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.case {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 20px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.case .caseInr {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.row.case-row {
+  margin: 0;
+}
+.caseHeading {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+h2 {
+  margin: 0;
+  font-size: 22px;
+  position: relative;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: #000000;
+  font-weight: 400;
+  display: inline-block;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.caseHeading i,
+.caseHeading h2 {
+  display: inline-block;
+}
+.case-btn .case-change-btn {
+  width: 150px;
+  padding: 9px 16px;
+}
+.case-btn .case-change-btn span.label {
+  text-align: left;
+  width: 100%;
+  justify-content: initial;
+  vertical-align: middle;
+}
+.case-btn .case-change-btn span.label i {
+  position: absolute;
+  right: 14px;
+  vertical-align: top;
+}
+.caseHeading h2 {
+  padding-left: 15px;
+  top: -4px;
+}
+.tabs-component {
+  padding: 0 15px;
+}
+.MuiTabs-scrollable-387 {
+  width: 100%;
+  margin-left: -56px;
+}
+.case-btn {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  text-align: right;
+}
+// i.icon {
+//   padding-left: 10px;
+// }
+
+// case tab
+i.icon-left-menu-color {
+  color: #000000;
+  padding-left: 10px;
+  vertical-align: middle;
+  top: 5px;
+  position: relative;
+}
+.wrapper-tab {
+  width: 100%;
+  margin: 15px auto 0;
+  position: relative;
+}
+.tabs {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.tabs .custom-tabs {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  color: black;
+
+  // overflow-x: scroll;
+}
+.custom-tabs .custom-tab-inr {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: white;
+  min-width: 100px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.custom-tab-inr span {
+  color: #606060;
+  font-size: 13px;
+}
+.ms-Dropdown .ms-Dropdown-title {
+  border-radius: 5px;
+  width: 100%;
+  // box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  border-color: lightgray !important;
+  color: #606060;
+  height: 40px;
+  line-height: 36px;
+}
+.ms-Dropdown .ms-Dropdown-caretDownWrapper {
+  line-height: 37px;
+}
+.createInputWrapper {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.createInputWrapper .ms-TextField-wrapper .ms-TextField-fieldGroup {
+	border-radius: 50px;
+	line-height: 65px;
+}
+// 2nd iteration
+.profileDropdown .ms-Dropdown .ms-Dropdown-title {
+  background-color: rgb(248, 248, 248);
+  border-radius: 0;
+}
+.smsMessageBox .ms-TextField-wrapper .ms-TextField-fieldGroup {
+  border-color: transparent;
+  padding: 10px 0;
+}
+.profileInputWrapper .ms-TextField-wrapper .ms-TextField-fieldGroup,
+.loginInputWrapper .ms-TextField-wrapper .ms-TextField-fieldGroup {
+  border-radius: 0;
+}
+// finish 2nd iteration
+.ms-TextField-wrapper .ms-TextField-fieldGroup {
+	border-color: lightgray;
+	border-radius: 5px;
+	height: 100%;
+	line-height: 38px;
+}
+div[class^='MuiPrivateTabScrollButton-root'] {
+  width: initial;
+}
+.Tab-root-386 {
+  width: 100%;
+}
+.custom-tab {
+  & .MuiPrivateTabScrollButton-root-495 {
+    width: initial;
+  }
+}
+
+.custom-tabs .MuiPaper-elevation4 {
+  box-shadow: 0 0 0 0;
+}
+.custom-tabs .MuiPrivateTabIndicator-colorPrimary-244 {
+  background-color: transparent;
+}
+
+.custom-tabs .custom-tab-inr.MuiTab-textColorPrimary-245.MuiTab-selected {
+  color: #2196f3;
+  border: 2px solid #2196f3;
+}
+
+// case tab1
+.tabone {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+.case-tab-padding {
+  padding-right: 0;
+}
+
+.wrap-tab1-left {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 20px 20px 10px 20px;
+  border-radius: 10px;
+}
+.tab1-heading {
+  border-bottom: 1px solid lightgray;
+  padding: 0 0 16px 0;
+}
+.tab1-form {
+  width: 100%;
+  // margin: 30px auto 20px;
+  position: relative;
+  border-right: 1px solid lightgray;
+  float: left;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.tab1-form.tab2-form {
+  border-right: 0;
+}
+.tab2-top-mgn {
+  margin-top: 60px;
+}
+.form {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 7px auto;
+}
+.form p {
+  display: inline-block;
+  width: 60px;
+  font-size: 14px;
+  color: #373930;
+}
+.form p.form-para {
+  width: initial;
+  margin-bottom: 0px;
+}
+.form .inputbase {
+  width: 64%;
+  padding-left: 15px;
+  position: relative;
+  // top: -7px;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.tab2-top-mgn .form .inputbase input,
+.tab1-spacing .form .inputbase input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.tab2-top-mgn .form .inputbase,
+.tab1-spacing .form .inputbase {
+  top: 0;
+}
+.form .inputbase .MuiInputBase-input-291 {
+  width: 100%;
+}
+.drpdwn-elt {
+  width: 28%;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.drpdwn .dropdown-40 .ms-Dropdown-title,
+.drpdwn .ms-Dropdown-title {
+  border-radius: 5px;
+  line-height: 32px;
+  height: 35px;
+  width: 100%;
+  // box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  border-color: #a6a6a6;
+  color: #606060;
+}
+.case-contact-name {
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+}
+.drpdwn-elt .drpdwn .caretDownWrapper-42,
+.drpdwn-elt .drpdwn .ms-Dropdown-caretDownWrapper {
+  line-height: 35px;
+  height: 35px;
+  color: #808080;
+}
+.case-btn.case-tab-btn {
+  width: initial;
+  float: right;
+  position: relative;
+  top: 0px;
+  text-align: center;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.btnStyle {
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.task-strt-row2 {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.checkbox {
+  // top: 2px;
+  position: relative;
+}
+.checkbox label span {
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.custom-tabs .MuiPrivateTabScrollButton-root-234 {
+  width: initial;
+}
+.case-contact-name p {
+  display: inline-block;
+  margin: 0;
+  top: -6px;
+  position: relative;
+  padding-left: 15px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+.wrap-tab1-left.wrap-tab1-right {
+  padding-bottom: 0;
+}
+.tab1-form.tab1-form2 {
+  margin: 0 auto;
+  padding: 10px 0;
+  border-right: 2px dotted lightgray;
+}
+.tabs-row2 {
+  width: 100%;
+  max-width: 100%;
+  margin: 10px auto;
+}
+.tab1-form.tab3-form {
+  border-right: none;
+}
+.tab1-form.tab3-form .table {
+  float: right;
+}
+.tab1-form.tab2-form .table tbody tr td {
+  text-align: left;
+  width: initial;
+  padding: 7px 13px;
+  vertical-align: middle;
+}
+.tab1-form.tab2-form .table tbody tr td:first-child {
+  background-color: #f2f1f2;
+}
+.case-btn.case-tab-btn .btn.btn-color {
+  background-color: #3b434b;
+}
+.case-btn.case-tab-btn .btn.btn-color1 {
+  background-color: #3d7be3;
+}
+.case-detail {
+  text-align: center;
+  line-height: 75px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.tab4-margin {
+  margin-top: -42px;
+  padding: 0;
+  clear: both;
+  float: right;
+}
+.tab4-margin .tab1-heading {
+  padding: 15px;
+}
+.tabs-drpdwn {
+  width: 30%;
+}
+.tabs-drpdwn .drpdwn-elt {
+  width: 100%;
+}
+// case tab4
+.case-4-content {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 330px;
+  float: left;
+  clear: both;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.case-4-inr-content {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  // height: 100%;
+}
+.case-4-inr-para {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 8px 0;
+}
+.case-4-inr-para p {
+  margin: 0;
+}
+.case-4-inr-div {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  background-color: white;
+  padding: 8px 0;
+}
+.case-4-inr-div i {
+  color: #3b434b;
+}
+.case-4-inr-div p {
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  top: -6px;
+  padding-left: 10px;
+}
+.case-4-inr-div p b {
+  color: #2196f3;
+}
+
+.div5-margin {
+  margin-top: -130px;
+}
+.MuiInput-underline-861:before {
+  border-bottom: 0;
+}
+// font management form
+.font-div,
+.font-wrapper-container {
+  width: 100%;
+  margin: 10px auto 10px;
+  position: relative;
+  float: left;
+  clear: both;
+}
+.font-div p {
+  color: #373930;
+}
+.font-wrapper {
+  width: 95%;
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 11px;
+  background-color: #f5f5f5;
+  float: left;
+  clear: both;
+  margin: 0 5px;
+}
+.font-wrapper-container .font-drpdwn {
+  width: 21%;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  padding-right: 10px;
+}
+.font-drpdwn .drpdwn {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.font-button,
+.font-icon {
+  width: 30%;
+  float: left;
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  // box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  vertical-align: top;
+  flex-wrap: wrap;
+}
+.font-button button {
+  font-weight: bold;
+  color: #373930;
+}
+.font-icon button:hover i,
+.font-icon button:focus i,
+.font-icon button:active i {
+  color: #373930;
+}
+
+.font-wrapper-container span.font-mod-span {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+}
+.font-button button,
+.font-icon button {
+  // min-width: 46px;
+  padding: 4px 13px;
+  width: 25%;
+  min-width: 23%;
+  background-color: white;
+  box-shadow: 0 0 0 0;
+}
+td .form-group {
+  margin-bottom: 0;
+}
+.font-textarea {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 0px auto;
+}
+.form-control:focus {
+  border-color: none;
+  box-shadow: 0 0 0 0;
+}
+
+.form-cal .react-datepicker-wrapper {
+  width: 18%;
+  border: 1px solid rgb(166, 166, 166);
+  padding: 6px 10px;
+  margin-left: 15px;
+  height: 37px;
+
+  border-radius: 4px;
+  // box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  position: relative;
+}
+.form-cal i {
+  position: absolute;
+  top: 8px;
+  // left: 190px;
+  font-size: 20px;
+  color: gray;
+}
+.form-cal .react-datepicker__input-container > input {
+  border-bottom: none;
+  width: 76%;
+  outline: 0;
+}
+.drpdwn-elt.form-drpdwn {
+  width: 145px;
+}
+.form-accordian {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.form-accordian .expansion {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.form-accordian .expansion.MuiExpansionPanel-root-298:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.MuiExpansionPanel-root-817::before {
+  display: none;
+  background-color: transparent;
+  height: 0 !important;
+}
+.form-accordian .expansion.MuiExpansionPanel-root-298:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.form-accordian .expansion.MuiPaper-elevation1-111 {
+  box-shadow: 0 0 0 0;
+}
+.form-accordian .expansion .MuiExpansionPanelSummary-content-308 > :last-child {
+  padding-left: 32px;
+}
+.form-accordian .expansion .MuiExpansionPanelSummary-expandIcon-309 {
+  left: 8px;
+  right: 97%;
+}
+.form-accordian {
+  & ExpandMoreIcon {
+    left: 8px;
+    right: 97%;
+  }
+}
+.form-accordian .expansion .expansion-summary {
+  border-bottom: 1px solid lightgray;
+}
+.accord1 {
+  width: 100%;
+}
+.textarea-chkbox {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 14px;
+  height: 99px;
+  float: left;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.accord1 .accord-supreme-btn {
+  margin-bottom: 10px;
+}
+.accord1 .accord-supreme-btn button {
+  background-color: #3d7be3;
+  color: white;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.accord1 .accord-table {
+  width: 100%;
+  margin: 0 auto;
+}
+.accord-table .table tbody tr td:first-child,
+.accord-table .table tbody tr td:nth-child(3),
+.accord-table .table tbody tr td:nth-child(5) {
+  width: 120px;
+  background-color: #f2f1f2;
+  color: #4b4b4b;
+  padding: 8px 10px 6px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.accord-table .table tbody tr td:nth-child(2),
+.accord-table .table tbody tr td:nth-child(4),
+.accord-table .table tbody tr td:nth-child(6) {
+  width: 400px;
+  color: #4b4b4b;
+  padding-left: 20px;
+  padding: 8px 10px 6px 20px;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.accord-table .table tbody tr td i {
+  color: #aeaeae;
+}
+.accord-table .table tbody tr:last-child td {
+  border-bottom: 1px solid #dee2e6;
+}
+.accord2 {
+  width: 100%;
+  margin: 5px auto;
+  position: relative;
+}
+.accord2 .accord2-wrap {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.accord2-wrap-inr {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.accord2-wrap-inr .padding-pretty {
+  margin-left: 20px;
+}
+.accord2-wrap-inr .drpdwn-elt {
+  width: 7%;
+  display: inline-block;
+  padding-left: 0px;
+  margin-right: 40px;
+}
+.drpdwn-elt.client-drpdwn-accord {
+  padding-left: 0;
+}
+.accord2-wrap-inr .radio label input {
+  margin: 0 10px;
+}
+
+.form.app-form {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.form .form-search-input {
+  width: 60%;
+  padding-left: 17px;
+  position: relative;
+}
+.form-search-input i {
+  position: absolute;
+}
+
+.font-drpdwn .drpdwn .dropdown-40 .ms-Dropdown-title,
+.font-drpdwn .drpdwn .caretDownWrapper-42 {
+  height: 40px;
+  line-height: 40px;
+  color: #373930;
+}
+.form.form-without-border {
+  margin-top: 10px;
+}
+.form.form-without-border .react-datepicker-wrapper {
+  width: 18%;
+  margin-left: 20px;
+}
+.form.form-without-border .react-datepicker__input-container > input {
+  border-bottom: 0;
+  width: 100%;
+  outline: 0;
+}
+.wrapper-checkbox {
+  width: 88%;
+  position: relative;
+  // padding-left: 20px;
+}
+.wrapper-checkbox .inr-wrap-chkbox {
+  width: 240px;
+  position: relative;
+  border: 1px solid lightgray;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+}
+.pretty {
+  margin-right: 0;
+}
+.wrapper-checkbox .inr-wrap-chkbox .custom-checkbox {
+  margin-bottom: 0;
+  float: right;
+  width: 45%;
+  position: relative;
+  top: -7px;
+}
+.wrapper-checkbox .inr-wrap-chkbox .custom-checkbox .checkbox {
+  width: 100%;
+}
+.contain-cal-btn {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contain-cal-btn .btn.btn-color {
+  background-color: #3c424b;
+}
+.contain-cal-btn .btn.btnStyle {
+  margin-right: 5px;
+  padding: 10px 10px;
+}
+.form-cal-btn {
+  width: 20%;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.form-cal-btn .react-datepicker-wrapper {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 6px 10px;
+  /* margin-left: 15px; */
+  height: 40px;
+  line-height: 1.7;
+
+  border-radius: 4px;
+  // box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.form-cal-btn .react-datepicker-wrapper .react-datepicker__input-container > input {
+  border-bottom: none;
+  width: 80%;
+  outline: 0;
+  cursor: pointer;
+}
+.form-cal-btn i {
+  position: absolute;
+  top: 7px;
+  right: 80%;
+  z-index: 2;
+}
+
+.custom-checkbox.checkbox2 {
+  // top: 6px;
+  padding-left: 0;
+}
+.font-icon i {
+  color: gray;
+}
+.icon {
+  font-size: 20px;
+}
+// casetabtwo
+.task-row2 {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+  float: left;
+}
+.client-accord,
+.client-accord .client-accord-wrap,
+.client-accord .client-accord-wrap .accord-table {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+td.blank {
+  background-color: transparent !important;
+}
+
+.table-inr-btns {
+  width: 100%;
+  margin: 0;
+  position: relative;
+  float: left;
+}
+
+.table-inr-btns .btn-color1 {
+  background-color: #00c57a;
+  margin-right: 0;
+  padding: 6px 10px;
+  margin-bottom: 0;
+}
+.table-inr-btns .btn-color2 {
+  background-color: #ffbd11;
+  margin-right: 5px;
+  padding: 6px 10px;
+  margin-bottom: 0;
+}
+td.table-td {
+  padding-right: 0 !important;
+}
+
+td .inr-wrap-chkbox {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  // top: 6px;
+}
+td .inr-wrap-chkbox .custom-checkbox {
+  display: inline-block;
+}
+.textfield-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textfield-wrapper .form-group {
+  width: 45%;
+  margin: 0 auto;
+}
+.case-tab-padding.accord-exec-padding {
+  padding-left: 0;
+}
+.textfield-wrapper span {
+  // padding: 10px 8px;
+  vertical-align: middle;
+}
+.textfield-wrapper .inputtype {
+  width: 100%;
+  display: inline-block;
+}
+.tab1-heading.h3-heading {
+  border-bottom: none;
+}
+.accord2-rght {
+  width: 100%;
+  margin: 8px auto;
+  position: relative;
+  float: left;
+}
+.accord2-rght h3.h2-fontwght {
+  float: left;
+  top: 5px;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.accord2-rght .table-inr-btns.table-rght-btns {
+  float: right;
+  width: initial;
+  // margin-bottom: 10px;
+}
+.table-inr-btns.table-rght-btns .btn-color2,
+.task-row2 .btn.btn-color2 {
+  background-color: #3c424b;
+  margin-right: 0;
+}
+.accord2-rght .drpdwn-elt {
+  width: 25%;
+}
+.table-inr-btns.table-rght-btns .btn-color1 {
+  margin-right: 5px;
+}
+.accord2-rght .drpdwn-elt {
+  padding-left: 0;
+}
+.table-inr-btns.table-rght-btns .btn.accord3-btn-clr,
+.task-checkbox-width .btn.accord3-btn-clr {
+  background-color: #ababab;
+}
+.form-submisn-btns {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  float: left;
+}
+.form-submisn-btns .btnStyle {
+  padding: 18px 40px;
+}
+.form-submisn-btns .btn.accord3-btn-clr,
+.task-row2 .btn.accord3-btn-clr,
+.task-head-right .btn.accord3-btn-clr,
+.task-form .tab1-form.tab2-form.task-table-form .table tbody tr td .btn.accord3-btn-clr {
+  background-color: #ababab;
+}
+.form-submisn-btns .btn.clr3 {
+  background-color: #fe0000;
+}
+.form-submisn-btns .btn.clr1 {
+  background-color: #3d7be3;
+}
+.task-row2 .btnStyle {
+  padding: 8px 5px;
+  margin-right: 5px;
+}
+.task-rght-row-drpdwn {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+.task-rght-row-drpdwn .left-heading {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task-search {
+  width: 40%;
+  // box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border: 1px solid rgb(166, 166, 166);
+  // padding: 5px 10px;
+}
+.task-search:hover {
+  border: 1px solid #000000;
+}
+.drpdwn-elt.drpdwn-elt-tab2 {
+  width: 19%;
+}
+.drpdwn-elt.drpdwn-elt-tab2 .drpdwn .ms-Dropdown-title {
+  line-height: 42px;
+  height: 46px;
+  width: 100%;
+  color: #606060;
+  border-color: #a6a6a6;
+}
+.drpdwn-elt.drpdwn-elt-tab2 .drpdwn .ms-Dropdown-caretDownWrapper,
+.drpdwn-elt.drpdwn-elt-tab2 .drpdwn .ms-Dropdown-caretDownWrapper.caretDownWrapper-43 {
+  line-height: 43px;
+  height: 45px;
+  color: #a6a6a6;
+}
+.drpdwn-elt .drpdwn .caretDownWrapper-42,
+.drpdwn .ms-Dropdown-caretDownWrapper i {
+  color: #606060;
+}
+
+// enhanced table
+.tableScroll {
+  width: 100%;
+  height: 320px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #e9e9e9;
+  border-radius: 20px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2196f3;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 20px;
+}
+
+.paginatn-table {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.table-row {
+  border-top: 2px solid black;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.table-cell {
+  border-bottom: 1px solid black;
+  padding: 0px 10px 0px 10px !important;
+  text-align: center; // !important;
+}
+.table-body .task-table2 .task-td-border {
+  border-right: 1px solid lightgray;
+}
+.table-body .task-table2 .task-checkbox-width {
+  width: 5%;
+  margin: 0 auto;
+  position: relative;
+}
+.table-body .task-table2 .task-checkbox-width:nth-child(2),
+.table-body .task-table2 .task-checkbox-width:nth-child(4),
+.table-body .task-table2 .task-checkbox-width:nth-child(5) {
+  width: 13%;
+  padding: 10px;
+  color: #464646;
+}
+.table-body .task-table2 .task-checkbox-width:nth-child(3) {
+  width: 45%;
+  padding: 10px;
+  text-align: left;
+  color: #464646;
+}
+.table-body .task-table2 .task-checkbox-width:nth-child(6) {
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+.form.app-form-para p,
+.form.app-form-para span.semi-coln {
+  position: relative;
+  top: 4px;
+}
+.table-action-btn {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: top;
+}
+.table-action-btn.table-btn-clr i {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.table-action-btn.table-btn-clr:first-child i {
+  background-color: #ffc00b;
+}
+.table-action-btn.table-btn-clr:nth-child(2) i {
+  background-color: #00c57a;
+}
+.table-action-btn.table-btn-clr:nth-child(3) i {
+  background-color: #fe0000;
+}
+.task-checkbox-width .btnStyle,
+.task-head-middle .btnStyle {
+  padding: 5px 5px;
+  margin-bottom: 0;
+}
+
+.task-head-right {
+  margin: 0 auto;
+  width: 23%;
+  position: relative;
+}
+.task-head-right .btn.btnStyle {
+  margin-right: 0;
+}
+.task-head-middle {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 35px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  vertical-align: middle;
+  display: table-cell;
+  top: 4px;
+}
+.tab2-heading {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.task-head-middle .btnStyle {
+  margin-right: 5px;
+}
+.task-head-middle .btn.accord3-btn-clr:hover,
+.task-head-middle .btn.accord3-btn-clr:focus,
+.task-head-middle .btn.accord3-btn-clr:active {
+  background-color: #3d7be3;
+  color: white;
+}
+.tab2-form-rght-btn {
+  top: -8px;
+}
+.tab2-form-rght-btn .btn.btnStyle {
+  padding: 5px 20px;
+}
+.task-form {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.task-form .task-form .tab1-form.tab2-form.task-table-form {
+  margin: 0;
+}
+.task-form .tab1-form.tab2-form.task-table-form .table tbody tr td:first-child {
+  width: 25%;
+  text-align: left;
+  padding-left: 15px;
+}
+.task-form .tab1-form.tab2-form.task-table-form .table tbody tr td:last-child {
+  width: 100%;
+  padding-right: 0;
+}
+.task-form .tab1-form.tab2-form.task-table-form .table tbody tr td .form-group {
+  margin-bottom: 0;
+}
+td.task-forminput-width .form-group {
+  width: 70%;
+}
+td.task-forminput-width i {
+  padding-left: 15px;
+  vertical-align: middle;
+  color: #3c444c;
+  position: relative;
+  top: 4px;
+}
+.task-form td .form-cal-btn {
+  width: 40%;
+}
+.task-form tr td p {
+  vertical-align: middle;
+  margin-bottom: 0;
+  padding: 10px;
+  color: gray;
+  letter-spacing: 0.5px;
+}
+.tab1-form tr td p {
+  margin-bottom: 0;
+  padding: 10px 0;
+  float: right;
+  padding-left: 12px;
+}
+.task-form tr td p span {
+  cursor: pointer;
+}
+.task-form .font-textarea {
+  margin-top: 0;
+}
+.tab1-form.tab2-form.task-table-form .table tbody tr td .btn.btnStyle {
+  margin-right: 0;
+}
+.task-form .task-form-para-btn {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.task-form .task-form-para-btn p {
+  margin-bottom: 0;
+  color: gray;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+.task-form .task-form-para-btn p span.para-clr {
+  color: #000000;
+}
+.task-form-para-btn .btn.btnStyle {
+  display: block;
+  margin: 0 auto;
+  background-color: #3d7be3;
+  padding: 15px 30px;
+  margin-top: 15px;
+}
+.task-head-middle .btn.accord3-btn-clr {
+  background-color: #efefef;
+  color: gray;
+  border: 1px solid lightgray;
+}
+.task-forminput-width .form-group {
+  position: relative;
+  width: 70%;
+}
+
+// tab3
+.tab3 {
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+}
+.text-para p {
+  margin-bottom: 0;
+}
+.form-cal .form-cal-btn.datepicker-btn i {
+  right: -6px;
+}
+
+// responsive code
+
+// 1900px css code
+@media screen and (max-width: 1900px) {
+  .case {
+    padding: 20px 10px;
+  }
+  .form .inputbase {
+    width: 55%;
+  }
+  .task-head-right {
+    width: 35%;
+  }
+  .task-head-middle {
+    width: 55%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(3) {
+    width: 33%;
+  }
+
+  .task-form td .form-cal-btn {
+    width: 130px;
+  }
+  .wrapper-checkbox {
+    width: 80%;
+  }
+  .form-cal-btn {
+    width: 130px;
+  }
+
+  .font-button,
+  .font-icon {
+    width: 30%;
+  }
+  .textfield-wrapper .form-group {
+    width: 44%;
+  }
+  .tab1-form.tab2-form .table tbody tr td {
+    padding: 8px 8px;
+  }
+}
+
+// 1600px
+@media screen and (max-width: 1600px) {
+  .custom-tabs .custom-tab-inr {
+    min-width: 50px;
+  }
+  .custom-tabs .custom-tab-inr .MuiTab-labelContainer-241 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form .inputbase {
+    width: 45%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(6) {
+    width: 28%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(2) {
+    width: 18%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(4),
+  .table-body .task-table2 .task-checkbox-width:nth-child(5) {
+    width: 11%;
+  }
+  .textfield-wrapper .form-group {
+    width: 43%;
+  }
+  .task-head-middle {
+    padding-left: 10px;
+  }
+  .btnStyle {
+    padding: 10px 10px;
+  }
+  .table-inr-btns .btn-color1,
+  .table-inr-btns .btn-color2 {
+    padding: 6px 2px;
+  }
+  // .form-cal-btn {
+  //     width: 30%;
+  // }
+  .wrapper-checkbox {
+    width: 80%;
+  }
+  .form-cal .react-datepicker-wrapper {
+    width: 127px;
+  }
+
+  .drpdwn-elt.form-drpdwn,
+  .form.form-without-border .react-datepicker-wrapper {
+    width: 141px;
+  }
+  // .form-cal-btn {
+  //   margin-bottom: 10px;
+  // }
+  .tab1-form tr td p {
+    float: left;
+  }
+  .ms-Dropdown-header,
+  .ms-Dropdown-item {
+    padding: 0 3px;
+  }
+}
+// 1400px
+@media screen and (max-width: 1400px) {
+  .form {
+    width: 100%;
+  }
+  .drpdwn-elt {
+    width: 40%;
+  }
+  .task-head-middle {
+    width: 55%;
+    padding-left: 10px;
+  }
+  .task-head-right {
+    width: 35%;
+  }
+  .task-row2 .checkbox label,
+  .task-head-right .checkbox label {
+    margin-right: 6px;
+  }
+  .drpdwn-elt {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .task-row2 .btnStyle {
+    padding: 10px 2px;
+  }
+  .wrap-tab1-left {
+    padding: 20px 10px 10px 10px;
+  }
+  .task-head-middle .btnStyle {
+    padding: 5px 2px;
+  }
+
+  .table-body .task-table2 .task-checkbox-width:nth-child(2) {
+    width: 19%;
+  }
+  .textfield-wrapper .form-group {
+    width: 42%;
+  }
+  .accord-table .table tbody tr td .drpdwn-elt {
+    padding-left: 0;
+  }
+  .accord2-rght .drpdwn-elt {
+    width: 25%;
+  }
+  .font-button,
+  .font-icon {
+    width: 35%;
+  }
+  .font-wrapper-container .font-drpdwn {
+    width: 22%;
+  }
+  .tabs .custom-tabs {
+    overflow-x: scroll;
+  }
+  .MuiTabs-fixed-297 {
+    overflow-x: auto;
+  }
+  .wrapper-checkbox {
+    width: 75%;
+  }
+}
+// 1280px
+@media screen and (max-width: 1280px) {
+  .form .inputbase {
+    width: 40%;
+  }
+  .case-btn.case-tab-btn.tabs-drpdwn {
+    width: 50%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(3) {
+    width: 34%;
+  }
+  .task-strt-row2 .task-row2 .btn.btnStyle {
+    font-size: 12px !important;
+  }
+  .font-button,
+  .font-icon {
+    width: 30%;
+  }
+  .textfield-wrapper .form-group {
+    width: 47%;
+  }
+  .font-wrapper {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  // .table {
+  //   margin-bottom: 0;
+  // }
+  .tab1-form tr td p {
+    float: right;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(3) {
+    width: 31%;
+  }
+
+	// .tab1-form.tab2-form{
+	//     width: 50%;
+  // }
+  .createInputWrapper{
+    width: 50%;
+  }
+}
+// 992px
+@media screen and (max-width: 992px) {
+  .form .inputbase {
+    width: 55%;
+  }
+  .tab1-form {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    // margin: 20px auto 0;
+  }
+  .tab1-form.tab1-form2 {
+    border-right: none;
+    border-bottom: 2px dotted lightgray;
+  }
+  .tab1-form.tab2-form {
+    border-bottom: 0;
+  }
+
+  .tab2-top-mgn {
+    margin: 20px 0;
+  }
+  .tab4-margin {
+    margin-top: -120px;
+  }
+  // .case-4-content{
+  //     height: 437px;
+  // }
+  .div5-margin {
+    margin-top: 0;
+  }
+  .custom-tabs .custom-tab-inr .MuiTab-labelContainer-241 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .custom-tabs .custom-tab-inr {
+    margin-right: 5px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .btnStyle {
+    padding: 10px 10px;
+  }
+  .tabs-row2.tabs-row3 .case-tab-padding {
+    padding-right: 15px;
+  }
+  .MuiTabs-fixed-778,
+  .MuiTabs-fixed-227,
+  .MuiTabs-fixed-687 {
+    overflow-x: scroll;
+  }
+  .task-form-para-btn .btn.btnStyle {
+    margin-bottom: 15px;
+  }
+  .col-lg-8.col-md-12.col-sm-12.case-tab-padding {
+    padding-right: 15px;
+  }
+  .tabone .case-rght-margin {
+    margin-top: 10px;
+  }
+  .textfield-wrapper .form-group {
+    width: 46%;
+  }
+
+  .case-tab-padding.accord-exec-padding {
+    padding-left: 15px;
+  }
+  .font-wrapper {
+    margin-bottom: 10px;
+  }
+}
+// 767px
+@media screen and (max-width: 767px) {
+  .tabone .case-tab-padding {
+    padding-right: 15px;
+  }
+  .tabone .case-rght-margin {
+    margin-top: 10px;
+  }
+  .case .case-padding {
+    padding: 0;
+  }
+  .tab4-margin {
+    margin-top: 10px;
+  }
+  .case-btn.case-tab-btn.tabs-drpdwn {
+    width: 30%;
+  }
+  .case-main-heading {
+    width: 75%;
+    display: inline-block;
+  }
+  .case-main-button {
+    width: 22%;
+    display: inline-block;
+  }
+  .task-head-middle {
+    width: 80%;
+  }
+  .task-head-right {
+    margin-top: 10px;
+    width: 50%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(6) {
+    width: 25%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(3) {
+    width: 30%;
+  }
+  .table-body .task-table2 .task-checkbox-width:nth-child(2) {
+    width: 20%;
+  }
+
+  .accord2-wrap-inr .drpdwn-elt {
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .wrapper-checkbox {
+    width: 75%;
+  }
+  .tabs-component {
+    padding: 0;
+  }
+  .font-button,
+  .font-icon {
+    width: 34%;
+  }
+  .accord2-wrap-inr .drpdwn-elt {
+    width: 13%;
+    margin-right: 20px;
+  }
+  .tab1-form {
+    margin: 0 auto;
+  }
+  .textfield-wrapper .form-group {
+    width: 45%;
+  }
+}
+// 600px
+@media screen and (max-width: 600px) {
+	.textfield-wrapper .form-group {
+		width: 44%;
+	}
+	.wrapper-checkbox {
+		width: 70%;
+  }
+  .createInputWrapper {
+    width: 75%;
+}
+}
+// 440px
+@media screen and (max-width: 440px) {
+  .wrapper-checkbox .inr-wrap-chkbox .custom-checkbox {
+    float: none;
+  }
+  .wrapper-checkbox .inr-wrap-chkbox {
+    width: 200px;
+  }
+  .form-submisn-btns .btnStyle {
+    padding: 18px 15px;
+  }
+  .font-wrapper-container .font-drpdwn {
+    width: 35%;
+    margin-bottom: 10px;
+  }
+  .font-button {
+    width: 60%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .font-icon {
+    width: 100%;
+  }
+  .client-accord .row .col-lg-8.col-md-12.col-sm-12.case-tab-padding,
+  .accord1 {
+    width: 700px;
+    overflow-x: scroll;
+  }
+  .client-acord-wrap,
+  .accord1 .accord-table,
+  .table {
+    width: 100%;
+  }
+  .textfield-wrapper .form-group {
+    width: 43%;
+  }
+}
+// 350px css code
+@media screen and (max-width: 350px) {
+  .wrapper-checkbox {
+    width: 100%;
+  }
+}

@@ -1,0 +1,70 @@
+import {StyleSheet, Dimensions} from 'react-native';
+import config from '@src/config';
+
+export default (styles = StyleSheet.create ({
+  commentContainer: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    paddingBottom: 10,
+    borderBottomColor: config.whiteTwo,
+    borderBottomWidth: 1,
+  },
+  commentContentContainer: {
+    flexDirection: 'row',
+    marginLeft: 20,
+    marginTop: 12,
+  },
+  commentText: {
+    marginTop: 4,
+    color: config.hintText,
+    fontFamily: config.regularFont,
+    fontSize: 13,
+    fontWeight: '600',
+    fontStyle: 'normal',
+    letterSpacing: 0,
+    color: config.btnLine,
+  },
+  lockIcon: {
+    width: 13,
+    height: 16,
+    marginRight: 5,
+    marginLeft: 4,
+    marginTop: 6,
+    tintColor: config.hintText,
+  },
+  viewProfileButton: {
+    width: Dimensions.get ('window').width * 0.2,
+    borderRadius: 3,
+    height: 30,
+    backgroundColor: config.lightGrey,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginLeft: 20,
+  },
+  text1: {
+    color: 'white',
+    width: 23,
+    height: 18,
+    fontSize: 12,
+    marginLeft: 4,
+    fontFamily: config.regularFont,
+    fontWeight: '600',
+    fontStyle: 'normal',
+    letterSpacing: 0,
+    color: config.white,
+  },
+  cloverIcon: {
+    width: 15,
+    height: 12,
+    resizeMode: "contain",
+    tintColor: 'white',
+  },
+  text2: {
+    color: 'white',
+    width: 23,
+    height: 18,
+    fontSize: 12,
+  },
+}));

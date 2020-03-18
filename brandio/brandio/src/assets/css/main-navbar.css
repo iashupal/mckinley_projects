@@ -1,0 +1,16 @@
+.main-navbar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+.main-navbar__logo {
+  flex: 1;
+}
+
+.main-navbar__nav {
+  flex: 3;
+}

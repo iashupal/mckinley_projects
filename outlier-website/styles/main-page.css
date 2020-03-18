@@ -1,0 +1,238 @@
+.dashboardFirstSection {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+  /* position: relative; */
+}
+/* .dashboardFirstSection::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0);
+} */
+
+p.dashboardHeader {
+  font-size: 65px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0;
+  transform: translateX(-146vw);
+  transition: all 1s ease-in;
+}
+p.dashboardSubInviteHeader {
+  font-size: 55px;
+  margin: 0 0 20px 0;
+  transform: translateX(-146vw);
+  transition: all 1s ease-in;
+  color: white;
+}
+a.dashboardDownloadAppsIos {
+  transform: translateX(-146vh);
+  transition: all 1s ease-in;
+}
+
+a.dashboardDownloadAndroid {
+  transform: translateX(146vh);
+  transition: all 1s ease-in;
+}
+
+.animateTitle {
+  transform: translateX(0vh) !important;
+}
+
+.animateSubTitle {
+  transform: translateX(0vh) !important;
+}
+
+.animateIos {
+  transform: translateX(0vh) !important;
+}
+
+.animateAndroid {
+  transform: translateX(0vh) !important;
+}
+
+.dashboardJoinButton {
+  display: none;
+  width: 200px;
+  text-align: center;
+  background: #ff7800;
+  padding: 10px;
+  border-radius: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+.dashboardDownloadApps {
+  display: flex;
+  margin-top: 25px;
+}
+
+.dashboardDownloadApps a {
+  width: 180px;
+  height: 56px;
+  background-size: 100% !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dashboardDownloadApps a:first-of-type {
+  margin-right: 15px;
+}
+
+.dashboardDownloadApps a:hover {
+  opacity: 0.7;
+}
+
+/** second section */
+
+.dashboardSecondSection {
+  width: 100%;
+  margin: 10% auto;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+}
+
+.dashboardSecondSectionContent {
+  margin: 0 auto;
+  display: flex;
+  /* width: var(--container-width);
+    max-width: var(--container-max-width); */
+}
+
+.dashboardSecondSectionContentInnerContainer {
+  width: 54%;
+  /* background: white;
+    padding: 3%;
+    font-size: 66%; */
+  height: 500px;
+  margin-top: 25px;
+  z-index: 999;
+  margin-left: 0;
+  display: table;
+}
+.dashboardSecondSectionContentInnerContainer .innerContainer {
+  display: table-cell;
+  vertical-align: middle;
+  background: white;
+  padding: 0 25px;
+}
+
+.dashboardSecondSectionImage {
+  width: 51%;
+  height: 550px;
+  margin-left: -5%;
+}
+
+.dashboardSecondSectionImage img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.contentImage h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.contentImage h4:first-of-type {
+  margin-top: 0;
+}
+
+.contentImage p {
+  font-size: 13px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  p.dashboardHeader {
+    font-size: 42px;
+  }
+  .dashboardDownloadApps {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .dashboardDownloadApps a {
+    display: block;
+  }
+  .dashboardDownloadApps a:first-of-type {
+    margin-bottom: 10px;
+  }
+  .dashboardSecondSectionContent {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .dashboardSecondSectionContentInnerContainer {
+    width: 95%;
+    /* padding: 25px; */
+    margin: 0 auto;
+  }
+  .dashboardSecondSectionContentInnerContainer .innerContainer {
+    padding: 20px;
+  }
+  .dashboardSecondSectionImage {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin-top: -10px;
+    display: block;
+  }
+  .dashboardSecondSectionImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  p.dashboardHeader {
+    font-size: 50px;
+  }
+  .dashboardSecondSectionContent {
+    /* width: 90%; */
+    margin: 0 auto;
+    display: block;
+  }
+  .dashboardSecondSectionContentInnerContainer {
+    width: 95%;
+    /* padding: 25px; */
+    margin: 0 auto;
+  }
+  /* .dashboardSecondSectionContentInnerContainer .innerContainer{
+        padding:20px;
+    } */
+  .dashboardSecondSectionImage {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin-top: -10px;
+    display: block;
+  }
+  .dashboardSecondSectionImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  p.dashboardHeader {
+    font-size: 60px;
+  }
+  /* .dashboardSecondSectionContentInnerContainer{
+        margin:45px auto;
+    } */
+}
+@media (min-width: 1200px) {
+}

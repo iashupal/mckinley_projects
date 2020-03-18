@@ -1,0 +1,120 @@
+@media screen and (min-width: 768px) {
+  .main-intro {
+    grid-template: repeat(2, auto) / repeat(2, 1fr);
+    padding-top: 150px;
+  }
+
+  .main-intro__links {
+    gap: 4rem;
+  }
+
+  .main-intro__links > li {
+    font-size: 52px;
+    height: 60px;
+    line-height: 60px;
+    max-width: 300px;
+  }
+
+  .main-intro__content {
+    grid-area: 2 / 1 / span 1 / span 2;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .main-intro {
+    grid-template: auto / repeat(2, 1fr) 1fr;
+  }
+
+  .main-intro__links > li {
+    max-width: 230px;
+  }
+
+  .main-intro__content {
+    grid-area: 1 / 3 / span 1 / span 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-intro__links > li {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .main-intro__links {
+    gap: 1.5rem;
+  }
+}
+
+.main-intro {
+  display: grid;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 8rem auto;
+  color: #333333;
+}
+
+.main-intro__links {
+  display: grid;
+  align-content: start;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+.main-intro__links > li {
+  border-bottom: 4px solid #eaeaea;
+  cursor: pointer;
+}
+
+.main-intro__links > li:hover {
+  border-color: #fec355;
+}
+
+.main-intro__content {
+  font-size: 16px;
+  line-height: 26px;
+  padding: 20px;
+  background-color: #3a3a3c;
+}
+.main-intro__heading {
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  text-align: right;
+  vertical-align: top;
+}
+.main-intro__heading h1 {
+  vertical-align: inherit;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 0;
+}
+.main-intro__heading h3 {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+/* 1280px */
+@media screen and (max-width: 1280px) {
+  .main-intro__heading h3 {
+    letter-spacing: 2.5px;
+  }
+}
+/* 1180px */
+@media screen and (max-width: 1180px) {
+  .main-intro__heading h3 {
+    font-size: 19px;
+  }
+}
+/* 992px */
+@media screen and (max-width: 992px) {
+  .main-intro__heading {
+    text-align: left;
+    margin-top: 50px;
+  }
+  .main-intro__heading h3 {
+    font-size: 25px;
+  }
+}

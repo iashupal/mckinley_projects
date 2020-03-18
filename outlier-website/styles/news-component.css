@@ -1,0 +1,24 @@
+h1.newsHeroText {
+    margin-top: 20%;
+    margin-left: 10%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 46px;
+    margin-bottom: 18%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media screen and (max-width: 767px){
+    h1.newsHeroText {
+    margin-top: 28%;
+    margin-left: 6%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 25px;
+    margin-bottom: 18%;
+}
+}

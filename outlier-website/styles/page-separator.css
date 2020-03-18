@@ -1,0 +1,10 @@
+.page-separator {
+  height: 4px;
+  border: none;
+  background-color: #eaeaea;
+  margin: 0 40px;
+}
+
+.page-separator:not(.page-separator--fullWidth) {
+  max-width: 1600;
+}

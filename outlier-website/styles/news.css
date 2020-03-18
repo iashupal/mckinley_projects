@@ -1,0 +1,36 @@
+.news-page {
+    margin: 10% 0%;
+}
+
+.newsContainer {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.newsContentRow {
+    display: flex;
+    flex-direction: column;
+    padding: 9px 0px;
+    border-bottom: 1px solid #cecece;
+}
+
+.newsContentTitleContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsContentTitle {
+    color: #27a2ea;
+    margin-right: 2%;
+}
+
+.newsContentTime {
+    font-size: 11px;
+    line-height: 29px;
+    color: #9a9a9a;
+}
+
+.newsContentTitleDescription {
+    font-size: 16px;
+    color: dimgrey;
+}

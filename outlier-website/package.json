@@ -1,0 +1,42 @@
+{
+  "name": "wrayward-clone",
+  "version": "1.0.0",
+  "description": "For Outliers Corporate Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckinley-rice/wrayward-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckinley-rice/wrayward-clone/issues"
+  },
+  "homepage": "https://github.com/mckinley-rice/wrayward-clone#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "next": "^9.1.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-draggable": "^4.2.0",
+    "react-html-parser": "^2.0.2",
+    "react-responsive-carousel": "^3.1.50",
+    "react-toastify": "^5.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0"
+  }
+}

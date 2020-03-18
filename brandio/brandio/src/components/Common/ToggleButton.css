@@ -1,0 +1,67 @@
+.active-close {
+  display: table;
+  border-radius: 26px;
+  border: 1px solid var(--white-gainsboro);
+  padding: 10px 32px 10px 10px;
+  min-width: 50px;
+  line-height: 14px;
+  color: var(--slate-blue);
+  cursor: pointer;
+  margin: 10px 0;
+  margin-left: 18px;
+  position: relative;
+  transition: all 0.2s;
+}
+.active-close::before {
+  position: absolute;
+  content: '';
+  padding: 14px;
+  right: 10px;
+  top: 3px;
+  background: transparent url('./../../assets/images/icon-remove-2.svg')
+    no-repeat right center;
+  background-size: 15px;
+}
+.inactive {
+  display: table;
+  padding: 10px 32px 10px 10px;
+  min-width: 50px;
+  line-height: 14px;
+  color: var(--black);
+  cursor: pointer;
+  border: 1px solid var(--white);
+  border-radius: 26px;
+  margin: 10px 0;
+  margin-left: 18px;
+  transition: all 0.2s;
+}
+.fandio__collaboration-list .main-item .inactive {
+  display: block;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.ant-menu-inline {
+  border-right: 0px;
+}
+.ant-menu-submenu-title:hover,
+.ant-menu-submenu-title:focus {
+  color: #242424 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .active-close {
+    min-width: 100%;
+  }
+  .inactive {
+    min-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .active-close {
+    min-width: 100%;
+  }
+  .inactive {
+    min-width: 100%;
+  }
+}

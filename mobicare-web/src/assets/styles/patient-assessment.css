@@ -1,0 +1,169 @@
+.patient-assessment .card-box {
+  /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.12); */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  min-height: 195px;
+  background-color: white;
+}
+.patient-assessment .card-box .patient-box1{
+  padding: 10px 20px;
+}
+.patient-assessment .patient-assessment-box1 {
+  padding: 45px;
+}
+.patient-assessment .patient-assessment-box1 img {
+  width: 57px;
+  height: 57px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+.patient-assessment .patient-assessment-box1 .patient-assessment-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.patient-assessment .patient-assessment-box1 .patient-assessment-details {
+  font-size: 14px;
+  color: #626262;
+  line-height: 18px;
+}
+.patient-assessment .message-btn-width {
+  width: 105px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.patient-assessment .message-btn-width i {
+  font-size: 14px;
+}
+.patient-assessment .common-box .head {
+  padding: 15px;
+}
+.patient-assessment .common-box {
+  color: #626262;
+}
+.patient-assessment .common-box .head svg {
+  width: 35px;
+  fill: #696969;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+.patient-assessment .common-box .confirm {
+  padding-bottom: 0;
+  padding-top: 0;
+  height: 10px;
+}
+.patient-assessment .common-box .ant-table-small {
+  border: 0;
+}
+.patient-assessment .common-box table {
+  text-align: center;
+}
+.patient-assessment .common-box .ant-table-tbody > tr > td,
+.patient-assessment .common-box .ant-table-thead > tr > th {
+  border: 0;
+}
+.patient-assessment .common-box .ant-table-thead > tr > th {
+  font-weight: 600;
+  color: #696969;
+  text-align: center;
+}
+.patient-assessment .assessment-box {
+  min-height: 500px;
+  margin-bottom: 25px;
+}
+
+.patient-assessment .right-header {
+  font-size: 20px;
+  border-bottom: 2px solid #ccc;
+  width: 202px;
+  font-weight: 600;
+}
+.patient-assessment .right-scale {
+  float: right;
+}
+
+.patient-assessment .good {
+  margin-right: 64px;
+}
+
+.patient-assessment .good,
+.patient-assessment .bad {
+  font-weight: 600;
+}
+
+.patient-assessment .mt-5 {
+  margin-top: 27px;
+}
+
+.patient-assessment .content {
+  background: rgba(255, 172, 0, 0.3);
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.patient-assessment .content-simple {
+  background: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.patient-assessment .draw {
+  float: left;
+}
+
+.patient-assessment .points {
+  float: right;
+}
+
+.patient-assessment .bold {
+  font-weight: 600;
+}
+
+.patient-assessment .next-block {
+  clear: both;
+  padding: 5px 0;
+}
+
+.patient-assessment .ml10 {
+  margin-left: 10px;
+}
+
+.patient-assessment .ml-1 {
+  margin-left: 20px;
+}
+
+.patient-assessment .ml-2 {
+  margin-left: 40px;
+}
+
+.patient-assessment .ml-3 {
+  margin-left: 60px;
+}
+
+.patient-assessment .ml-4 {
+  margin-left: 80px;
+}
+
+.patient-assessment .ml-5 {
+  margin-left: 10px;
+}
+
+.patient-assessment .adjust-caret {
+  margin-left: 10px;
+}
+
+.patient-assessment .clear-both {
+  clear: both;
+}
+
+.patient-assessment .new-content {
+  margin-bottom: 50px;
+}
+.patient-assessment__ques{
+  background-color: #f0f0f0;
+  padding: 5px;
+  color: #202020;
+}

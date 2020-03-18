@@ -1,0 +1,117 @@
+.featured-media-with-card {
+  position: relative;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 50px;
+}
+
+.featured-media-with-card > .featured-media {
+  max-height: 555px;
+  min-height: 500px;
+  object-fit: cover;
+}
+
+.featured-media-with-card__card {
+  display: grid;
+  grid-template-rows: 1fr 5rem;
+  background-color: #fff;
+  color: #333333;
+  margin: auto 100px;
+  width: 80%;
+}
+
+.featured-media-with-card__content {
+  display: grid;
+  margin-bottom: 20px;
+  /* margin: 0 auto; */
+}
+
+.featured-media-with-card__title {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.featured-media-with-card__desc {
+  width: 15rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.featured__media-btn {
+  position: relative;
+}
+
+.featured-media-with-card__btn-view {
+  line-height: 4rem;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-right: 10px;
+  color: black;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.featured-media-with-card__btn-view:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .featured-media-with-card__card {
+    top: 0;
+    bottom: 0;
+    margin: auto 60px;
+  }
+
+  .featured-media-with-card:nth-child(odd) > .featured-media-with-card__card {
+    left: var(--card-offset);
+  }
+
+  .featured-media-with-card:nth-child(even) > .featured-media-with-card__card {
+    right: var(--card-offset);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .featured-media-with-card {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
+  .featured-media-with-card__card {
+    left: 0;
+    right: 0;
+    bottom: 4rem;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+  }
+  .featured__media-btn {
+    width: 100%;
+  }
+
+  .featured-media-with-card__content {
+    margin: 1.5rem 0;
+  }
+
+  .featured-media-with-card__desc {
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+  }
+}
+.btn_img {
+  width: 15px;
+  vertical-align: middle;
+  padding-right: 10px;
+  position: relative;
+  top: -2px;
+}

@@ -1,0 +1,143 @@
+.notificaion__div {
+    background-color: var(--white);
+    border: 1px solid var(--zircon);
+    float: right;
+}
+
+.noti__main__div {
+    padding: 18px 24px;
+}
+
+.noti__main__single {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--zircon);
+}
+
+.noti__main__single:last-child {
+    border-bottom: none;
+}
+
+.noti__main__subdiv {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.profile__pic {
+    height: 35px;
+    width: 35px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+.last__text {
+    color: var(--dark-gray);
+    font-family: Noto Sans KR;
+    font-size: 12px;
+}
+
+.noti__btn__group {
+    margin-left: 30px;
+}
+
+.noti__btn {
+    border: 1px solid var(--dark-gray);
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: Noto Sans KR;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 75px;
+}
+
+.fill__btn {
+    background-color: var(--slate-blue);
+    border: 0.8px solid var(--slate-blue);
+    color: var(--white);
+}
+
+.unfill__btn {
+    background-color: var(--white);
+    border: 0.8px solid var(--dark-gray);
+    color: var(--dark-gray);
+}
+
+.notification-popover {
+    margin: -7px !important;
+    margin-top: 22px !important;
+}
+
+.notification-popover.ant-popover {
+    top: 60px !important;
+}
+
+.notification-popover .ant-popover-arrow {
+    display: none;
+}
+
+.notification-popover .ant-popover-inner-content {
+    padding: 0 !important;
+}
+
+.notification-popover.ant-popover-placement-bottom {
+    padding-top: 15px !important;
+}
+
+.topbar__notification {
+    cursor: pointer;
+}
+
+.noti__description__text {
+    font-size: 14px;
+    color: var(--black);
+}
+
+.noti__title__user--padding-right {
+    padding-right: 10px;
+}
+
+.noti__main__details-div {
+    display: flex;
+}
+
+@media screen and (max-width: 991px) {
+    .noti__btn {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    .noti__btn {
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .noti__main__details-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noti__btn__group {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .notification-popover.ant-popover {
+        width: 100%;
+        left: 0;
+    }
+
+    .noti__main__details-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noti__btn__group {
+        margin-left: 10px;
+    }
+}

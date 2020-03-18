@@ -1,0 +1,34 @@
+.smsUserInput {
+  width: 40%;
+  position: relative;
+}
+/* media query */
+@media screen and (max-width: 1800px) {
+  .smsUserInput {
+    margin-top: 10px;
+  }
+}
+/* 1180px */
+@media screen and (max-width: 1200px) {
+  .smsUserInput {
+    margin-top: 0px;
+  }
+}
+/* 1067px */
+@media screen and (max-width: 1067px) {
+  .smsUserInput {
+    margin-top: 10px;
+  }
+}
+/* 992px */
+@media screen and (max-width: 992px) {
+  .smsUserInput {
+    margin-top: 0px;
+  }
+}
+/* 600px */
+@media screen and (max-width: 600px) {
+  .smsUserInput {
+    margin-top: 10px;
+  }
+}

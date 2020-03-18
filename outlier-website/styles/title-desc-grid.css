@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) {
+  .title-desc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.title-desc-grid {
+  display: grid;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 50px auto;
+  justify-items: left;
+  gap: 32px;
+}
+
+.title-desc-grid__card > * {
+  font-weight: 300;
+  margin: 12px auto;
+}
+
+.title-desc-grid__card > h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.title-desc-grid__card > p {
+  font-size: 16px;
+  line-height: 1.75;
+}

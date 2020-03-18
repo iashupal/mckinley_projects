@@ -1,0 +1,18 @@
+.call-to-action {
+  padding: 12px;
+  background-color: hotpink;
+  margin: 5px;
+  transition: 300ms;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.call-to-action:hover {
+  background-color: blueviolet;
+}

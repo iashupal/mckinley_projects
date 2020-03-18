@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  .notice-row {
+    /* width: var(--container-width); */
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    max-width: var(--container-max-width);
+    /* margin: auto; */
+    padding: 40px;
+    border-top: 2px solid #e8e8e8;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 768px) {
+  .notice-row {
+    /* width: var(--container-width); */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    max-width: var(--container-max-width);
+    margin: auto;
+    padding: 20px 0;
+    border-top: 2px solid #e8e8e8;
+  }
+}
+
+.notice-text {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  padding:0 10px;
+}

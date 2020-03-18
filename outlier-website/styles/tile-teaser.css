@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+  .tile-teaser {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    max-height: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tile-teaser {
+    grid-auto-flow: row;
+  }
+}
+
+.tile-teaser {
+  display: grid;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 10px auto;
+}

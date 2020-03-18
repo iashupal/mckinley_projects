@@ -1,0 +1,125 @@
+.div__sub__illustration {
+  padding-top: 80px !important;
+  margin-top: 0;
+}
+
+.div__sub__illustration .div__menu__product {
+  margin-top: 0;
+}
+
+.illustaration__list {
+  margin-left: 80px;
+  width: 100%;
+}
+
+.illustaration__main__list {
+  padding-bottom: 150px;
+}
+
+.illustration__product {
+  display: flex;
+  flex-direction: column;
+}
+
+.illustation__table.ant-table-wrapper,
+.illustation__table .ant-spin-nested-loading,
+.illustation__table .ant-spin-container,
+.illustation__table .ant-table {
+  height: 100% !important;
+}
+
+.illustation__table .ant-table-pagination.ant-pagination {
+  float: none !important;
+  margin: 160px 16px auto !important;
+  text-align: center !important;
+}
+
+.illustation__div {
+  margin: 50px 0 0 0;
+  width: -webkit-fill-available;
+}
+
+.illustation__row {
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.illustation__title {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  color: var(--nero);
+  font-weight: bold;
+}
+
+.illustation__desp {
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.illustation__price {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  color: var(--grey);
+}
+
+.illustation__btn {
+  border: 1px solid var(--dark-gray);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Noto Sans KR;
+  width: 125px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.illustration__image--outer {
+  height: 150px;
+  max-height: 150px;
+}
+.illustation__image {
+  object-fit: contain;
+  height: 100%;
+}
+
+.illustration__column {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#brandioillustration span.illustation__row {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 1265px) {
+  .illustaration__list {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .illustation__div {
+    margin-top: 0px !important;
+  }
+}
+@media screen and (max-width: 812px) {
+  .illustration__column {
+    align-items: center;
+  }
+
+  .illustation__row {
+    text-align: center;
+  }
+
+  .illustation__div .ant-col {
+    margin-top: 40px !important;
+  }
+
+  /* .illustation__div .ant-col:first-child {
+    margin-top: 0px;
+  } */
+}

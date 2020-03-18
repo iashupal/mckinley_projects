@@ -1,0 +1,82 @@
+.wrap-popup{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.popup{
+    width: 180px;
+    margin: 2px auto 0;
+    position: relative;
+    border: 1px solid #A1C6F3;
+    border-radius: 5px;
+    padding: 13px 10px;
+    // cursor: pointer;
+}
+
+.popup .popup-btn{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1;
+}
+
+.popup .popup-btn i{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 2px;
+
+}
+.popup .popup-btn p{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.dialog-wrapper{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.dialog-wrapper .MuiDialog-paperWidthSm-602{
+    width: 600px;
+    max-width: 600px;
+}
+.dialog-wrapper .MuiDialog-paperScrollPaper-597{
+    flex: auto;
+}
+.dialog-wrapper .MuiDialog-paper-596{
+    display: initial;
+}
+.dialog-content .tab1-form.tab2-form.task-table-form{
+    margin: 0 auto;
+}
+ .cross-btn{
+    position: absolute !important;
+    top: 0px;
+    z-index: 9999;
+    background-color: blue !important;
+    border-radius: 0 !important;
+    padding: 10px !important;
+    right: 0;
+}
+.MuiPaper-elevation24-169{
+    box-shadow: 0 0 0 0;
+}
+.MuiPaper-rounded-144{
+    border-radius: 0;
+}
+
+// 1180px css code
+@media screen and (max-width:1180px){
+    .popup{
+      float: right;
+      margin-right: 5px;
+      width: 120px;
+      padding: 11px 10px;
+    }
+  
+  }

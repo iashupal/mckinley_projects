@@ -1,0 +1,43 @@
+export default {
+    "name": "Fandio",
+    "description": "빈지노를 비롯한, 그의 친구들인 김한준, 신동민이 모여 결성하였다. 팀의 이름인 IAB I've Always Been 의 약자로, 항상 그래 왔듯, 앞으로 변함없이 라는 의미와 함께 어린시절부터 지내온 세 사람의 정체성을 담았으며 팀의 키워드는 아날로그이다. 아트워크 디자인 및 설치 미술, 협업, 브랜딩을 하는 팀은 2013년 빈지노의 싱글 Dali, Van, Picasso 의 아트워크를 시작으로 Up All Night EP, 〈어쩌라고 (So What)〉등 빈지노의 주요 아트워크를 담당하였고 또한 무대 연출도 기획하였다.",
+    "image": "../../assets/images/brand-logo-1.svg",
+    "products": [
+        {
+            "brandIcon": "./../../assets/images/brand-logo-1.svg",
+            "productImage": "./../../assets/images/product-photo-1.svg",
+            "brandName": "IAB STUDIO",
+            "productName": "KOREAN MEARCH TEE",
+            "productPrice": "10,000",
+            "personOneImage": "./../../assets/images/artist-1.svg",
+            "personOneName": "Harry",
+            "personTwoImage": "./../../assets/images/artist-avatar-2.svg",
+            "personTwoName": "Abling",
+            "addButton": false,
+        },
+        {
+            "brandIcon": "./../../assets/images/brand-logo-1.svg",
+            "productImage": "./../../assets/images/product-photo-1.svg",
+            "brandName": "IAB STUDIO",
+            "productName": "KOREAN MEARCH TEE",
+            "productPrice": "10,000",
+            "personOneImage": "./../../assets/images/artist-1.svg",
+            "personOneName": "Harry",
+            "personTwoImage": "./../../assets/images/artist-avatar-2.svg",
+            "personTwoName": "Abling",
+            "addButton": true,
+        },
+        {
+            "brandIcon": "./../../assets/images/brand-logo-1.svg",
+            "productImage": "./../../assets/images/product-photo-1.svg",
+            "brandName": "IAB STUDIO",
+            "productName": "KOREAN MEARCH TEE",
+            "productPrice": "10,000",
+            "personOneImage": "./../../assets/images/artist-1.svg",
+            "personOneName": "Harry",
+            "personTwoImage": "./../../assets/images/artist-avatar-2.svg",
+            "personTwoName": "Abling",
+            "addButton": false,
+        },
+    ]
+}

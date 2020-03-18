@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&display=swap&subset=korean');
+
+/* TODO: Add Global margin variables */
+
+*,
+h1,
+html,
+div,
+a {
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+  word-break: keep-all;
+  background: #f5f5f5;
+}
+
+/* For debugging */
+/* * {
+  border: 0.1px solid #e4e4e4;
+} */
+.team__image {
+  width: 100%;
+}
+.contact_image {
+  display: grid;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  height: calc((var(--container-width) * 9) / 16);
+  margin: 5rem auto;
+  grid-template-rows: auto 1fr 1fr;
+  justify-items: center;
+}
+
+@media screen and (min-width: 991px) {
+  :root {
+    --container-width: 78%;
+    --container-max-width: 1300px;
+    --container-margin-inline: auto;
+    --container-primary: rgb(254, 195, 85);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  :root {
+    --container-width: 95%;
+    --container-max-width: 1600px;
+    --container-margin-inline: 2rem;
+    --container-primary: rgb(254, 195, 85);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --container-width: 90%;
+    --container-margin-inline: 1rem;
+    --container-primary: rgb(254, 195, 85);
+  }
+}
+
+@keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+@-moz-keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    -moz-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -moz-transform: translate(0px, 0px);
+  }
+}
+
+@-webkit-keyframes slide-up-fade-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0px, 40px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+.slide-up-fade-in {
+  animation: slide-up-fade-in ease 1s;
+  animation-iteration-count: 2;
+  transform-origin: 50% 50%;
+  animation-fill-mode: forwards; /*when the spec is finished*/
+  -webkit-animation: slide-up-fade-in ease 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+  -moz-animation: slide-up-fade-in ease 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-transform-origin: 50% 50%;
+  -moz-animation-fill-mode: forwards; /*FF 5+*/
+  -o-animation: slide-up-fade-in ease 1s;
+  -o-animation-iteration-count: 1;
+  -o-transform-origin: 50% 50%;
+  -o-animation-fill-mode: forwards; /*Not implemented yet*/
+  -ms-animation: slide-up-fade-in ease 1s;
+  -ms-animation-iteration-count: 1;
+  -ms-transform-origin: 50% 50%;
+  -ms-animation-fill-mode: forwards; /*IE 10+*/
+  opacity: 0;
+  opacity: 1\9;
+}

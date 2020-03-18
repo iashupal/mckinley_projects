@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+  .tile-teaser__content-box {
+    border-top: 4px solid #eaeaea;
+    padding: 0 0;
+    padding: 0 2rem;
+    align-content: center;
+  }
+}
+@media screen and (min-width: 991px) {
+  .tile-teaser__content-box {
+    border-top: 4px solid #eaeaea;
+    padding: 0 0;
+    padding: 0 2rem;
+    align-content: center;
+  }
+}
+
+.tile-teaser__content-box {
+  display: grid;
+  width: 100%;
+  box-sizing: border-box;
+  color: #333333;
+  grid-template-rows: repeat(2, auto);
+}

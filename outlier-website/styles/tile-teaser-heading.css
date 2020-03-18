@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  .tile-teaser__heading {
+    font-size: 30px;
+    align-self: center;
+    grid-row: 1/2;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .tile-teaser__heading {
+    margin: 0;
+    grid-row: 1/2;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tile-teaser__heading {
+    margin: 1rem 0;
+    font-size: 26px;
+    width: 100%;
+  }
+}
+
+.tile-teaser__heading {
+  font-weight: bold;
+}

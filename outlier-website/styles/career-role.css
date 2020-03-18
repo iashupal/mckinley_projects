@@ -1,0 +1,146 @@
+@media screen
+and (min-width: 768px) {
+.careers-role__container{
+    display:grid;
+}
+.career-role__section-text-heading-1{
+    margin-top:5rem;
+    height:10rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding:0 300px 0 20px;
+}
+.role__section-designation{
+  height: 6rem;
+  background-color:  #b8b894;
+  width: 20rem;
+}
+.role__section-application{
+    height:5rem;
+    width: 8rem;
+    background-color:  #b8b894;
+    margin-left: 28rem;
+}
+.career-role__section-content{
+    background-color:#d6d6c2;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 300px 0 300px;
+    align-items: center;
+}
+.career-role__section-content-text{
+    height: 100rem;
+    background-color:  #b8b894;
+}
+.career-role__section-text-heading-2{
+    margin-top:5rem;
+    height:10rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 150px 250px 200px 1fr 100px;
+    align-items: center;
+}
+.role__section-left{
+   height: 8rem;
+   width: 100%;
+   background-color:  #b8b894;
+}
+.role__section-right{
+    height: 8rem;
+    width: 100%;
+    background-color:  #b8b894;
+}
+.career-role__section-text-heading-3{
+    margin-top:5rem;
+    height:13rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.career-role__section-text-content{
+    height: 12rem;
+    width:90%;
+    background-color:  #b8b894;
+}
+
+
+}
+@media screen
+and (max-width: 991px) {
+.careers-role__container{
+    display:grid;
+}
+.career-role__section-text-heading-1{
+    margin-top:5rem;
+    height:10rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding:0 300px 0 20px;
+}
+.role__section-designation{
+  height: 6rem;
+  background-color:  #b8b894;
+  width: 20rem;
+}
+.role__section-application{
+    height:5rem;
+    width: 8rem;
+    background-color:  #b8b894;
+    margin-left: 28rem;
+}
+.career-role__section-content{
+    background-color:#d6d6c2;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 300px 0 300px;
+    align-items: center;
+}
+.career-role__section-content-text{
+    height: 100rem;
+    background-color:  #b8b894;
+}
+.career-role__section-text-heading-2{
+    margin-top:5rem;
+    height:10rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 150px 250px 200px 1fr 100px;
+    align-items: center;
+}
+.role__section-left{
+   height: 8rem;
+   width: 100%;
+   background-color:  #b8b894;
+}
+.role__section-right{
+    height: 8rem;
+    width: 100%;
+    background-color:  #b8b894;
+}
+.career-role__section-text-heading-3{
+    margin-top:5rem;
+    height:13rem;
+    background-color:#d6d6c2;
+    margin-bottom: 4rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.career-role__section-text-content{
+    height: 12rem;
+    width:90%;
+    background-color:  #b8b894;
+}
+
+
+}

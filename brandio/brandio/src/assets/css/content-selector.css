@@ -1,0 +1,38 @@
+.action-button-grid {
+  padding: 16rem 0px;
+  display: grid;
+  grid-template-columns: 50px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.fab {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.content-button {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px !important;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 300ms background-color;
+  transition: 300ms box-shadow;
+  border-radius: 100%;
+}
+
+.content-button:hover {
+  background-color: rgb(236, 235, 235);
+}

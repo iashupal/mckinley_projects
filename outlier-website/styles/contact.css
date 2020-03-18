@@ -1,0 +1,14 @@
+.contact-page {
+    margin: 10% 0%;
+}
+
+.contactContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contactContent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

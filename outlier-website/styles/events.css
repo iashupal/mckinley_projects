@@ -1,0 +1,340 @@
+.events-page{
+    margin-top: 100px;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 620px;
+    margin-bottom: 14%;
+    padding: 0 20px;
+}
+.row {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+    padding: 15px;
+  }
+
+.eventSliderSection {
+    display: flex;
+    margin: 50px auto;
+    /* max-width: 90%; */
+    justify-content: space-between;
+}
+
+.carousel .thumbs-wrapper {
+    margin: 20px auto !important;
+    overflow: hidden;
+}
+.eventSlider .thumbs.animated {
+    padding-left: 0;
+    margin: auto;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.carousel .thumb{
+    margin-right: 0px !important;
+}
+
+.eventDetailHeading h4 {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.eventDetailHeading h5{
+  color: rgb(88, 88, 88);
+  font-weight: 400;
+  margin: 0;
+}
+.eventSlider{
+  width:400px;
+}
+.eventDetailContainer {
+    display: flex;
+}
+
+.eventDescription {
+    width: 55%;
+    margin-right: 10%;
+}
+.eventDescription h3{
+  margin-top: 0;
+  line-height: normal;
+  position: relative;
+  bottom: 5px;
+}
+
+.eventsInfoBox {
+    width: 30%;
+    background: white;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-left: 3%;
+}
+
+.eventsInfoTime,.eventsInfoLocation{
+  clear: both;
+  margin-bottom: 10px;
+}
+.eventsInfoTime .block-span{
+  display: block;
+}
+.eventsInfoImage{
+  float: left;
+  width:15%;
+}
+.eventsInfoTime p,.eventsInfoLocation p{
+  margin: 0;
+  float: left;
+  width: 85%;
+}
+.eventsInfoBox div img {
+    width: 25px;
+    margin-right: 25px;
+}
+.eventDetailPrice .eventDetailPricePrev{
+  color: rgb(88, 88, 88);
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+.eventDetailPrice .eventDetailPriceNow{
+  color: #3085f9;
+  font-weight: bold;
+  margin-top: 0;
+}
+/* p.eventDetailShareOne {
+    color: red;
+} */
+.eventDetailList{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.eventDetailList .iconList{
+  margin: 7px 0;
+  color:#333;
+}
+.eventDetailList .iconList img {
+  width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+.eventDetailImageContent img {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.eventDetailDummyContent {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* .eventDetailOptions button {
+    margin-top: 4%;
+    width: 150px;
+    padding: 8px;
+    background: #4a9a63;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+} */
+
+.eventDetailDescription {
+    margin-top: 4%;
+    font-size: 15px;
+    line-height: 1.6rem;
+    color: #545454;
+    background:#eaebec;
+    padding:40px;
+}
+.events-page {
+    margin: 10% 0%;
+}
+
+.evnentsContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.eventRow {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.eventTab {
+    width: 185px;
+}
+
+.eventImage img {
+    width: 100%;
+}
+
+.eventTab h3 a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #505050;
+    cursor: pointer;
+}
+
+.eventTab h3 a:hover {
+    color: black;
+}
+
+.eventImage {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.eventImage:hover {
+    opacity: 0.7;
+}
+.evnentsContainer h1 {
+    margin-bottom: 10%;
+}
+
+ 
+  .event-box{
+    color: black;
+    background: #9bf4cf;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+  }
+  .event-box h3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 66%;
+}
+  .event-box h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.eventSlider .carousel .slide{
+  max-height: 400px; 
+    max-width: 400px;
+}
+.eventSlider .thumbs.animated{
+  padding-left: 0;
+  margin:auto;
+  text-align: center;
+}
+@media screen and (max-width:767px){
+  .eventSliderSection{
+    display:block;
+  }
+  .eventSlider .thumbs.animated{
+    margin: auto;
+    text-align: center;
+  }
+  .eventDetail {
+    width:100%;
+}
+.eventSlider{
+  width:100%;
+}
+.events-page {
+    margin: 22% 0%;
+}
+.eventRow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.evnentsContainer h1 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.eventDetailContainer{
+  display: block;
+}
+.eventDescription {
+    width: 100%;
+    margin-right: 0;
+}
+.eventsInfoBox{
+    width: auto;
+    background: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin-left: 0;
+}
+.eventsInfoImage{
+  width:auto;
+}
+}
+.eventDetailOptions button.applyButton{
+  color: #FFFFFF;
+    border-color: #000000;
+    background-color: #000000;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding:7px;
+    margin-top:10px;
+}
+.eventDetailOptions{
+  text-align: right;
+}
+.pageHeading{
+  /* padding-left: 5%; */
+  margin-top: 8%;
+  margin-bottom: 0;
+}
+
+
+@media screen and (min-width:768px){
+  .eventDetail{
+    margin-left: 100px;
+    width: 50%;
+  }
+}
+@media screen and (min-width:1200px){
+  .eventSliderSection{
+    max-width:100%;
+  }
+  .pageHeading{
+    padding-left: 0px;
+  }
+}
+
+	.eventSlider .carousel{		
+  grid-auto-columns: auto;		
+}
+.roles-section .modal__content-box{
+  border: 1px solid #eaeaea;
+}
+@media screen and (max-width:991px){
+  .eventDetailDescription{
+      padding: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .row {
+    display: block;
+  }
+  .eventDetailDescription{
+    padding: 15px;
+}
+}

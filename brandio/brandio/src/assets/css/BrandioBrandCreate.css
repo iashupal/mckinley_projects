@@ -1,0 +1,273 @@
+.brandiobrandcreate {
+    padding-bottom: 150px;
+}
+.headingbox {
+    padding-top: 36px;
+    padding-bottom: 123px;
+}
+.headingbox__main {
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: inherit;
+    margin: 0;
+}
+.headingbox__sub {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 16px;
+}
+.brandiobrandcreate__contentbox {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 10px 0;
+    align-items: flex-start;
+}
+.brandiobrandcreate__contentbox--label {
+    justify-content: center;
+}
+.brandiobrandcreate__contentbox--value {
+    justify-content: center;
+    padding: 0px;
+}
+.fullinputbox {
+    background-color: var(--white-smoke);
+    padding: 0 10px;
+    border: 0px;
+    line-height: 28px;
+    display: grid;
+    grid-template-columns: 4fr auto;
+    align-items: center;
+    justify-content: center;
+}
+.fullinputbox__field {
+    background-color: var(--white-smoke);
+    padding: 5px 0px;
+    border: 0px;
+    line-height: 28px;
+}
+.fullinputbox__badge {
+    background-color: var(--white-smoke);
+    color: var(--nero);
+    padding: 0 10px;
+}
+.primary-input {
+    background-color: var(--white-smoke);
+    padding: 5px 10px;
+    border: 0px;
+    line-height: 28px;
+    min-width: 200px;
+}
+.primary-textarea {
+    background-color: var(--white-smoke);
+    padding: 5px 10px;
+    border: 0px;
+    width: 100%;
+    height: 134px;
+}
+.brandiobrandcreate__uploadbox {
+    display: flex;
+    padding: 0px;
+}
+.brandiobrandcreate__uploadbox--upload {
+    margin-right: 40px;
+}
+
+.brandiobrandcreate__uploadbox--info {
+    border: 1px solid var(--silver);
+    min-width: 300px;
+    max-width: 400px;
+    height: 146px;
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.brandiobrandcreate__brandlogobox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.brandiobrandcreate__brandlogo {
+    padding-right: 10px;
+}
+.brandiobrandcreate__brandname {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.helpinfo {
+    font-size: 12px;
+    margin: 15px 0px 0px 0px;
+}
+.brandiobrandcreate__checkbox {
+    padding-top: 121px;
+    padding-bottom: 31px;
+    display: flex;
+    align-items: center;
+    line-height: 38px;
+}
+.checkbox-info {
+    padding-left: 30px;
+}
+
+#hexagon .ant-upload.ant-upload-select-picture-card {
+    width: 113px;
+    height: 104px;
+    border: 1px solid var(--white-smoke);
+    -webkit-clip-path: polygon(
+        21% 0,
+        80% 0,
+        100% 47%,
+        100% 47%,
+        81% 100%,
+        19% 100%,
+        0 50%,
+        0 50%
+    );
+    clip-path: polygon(
+        21% 0,
+        80% 0,
+        100% 47%,
+        100% 47%,
+        81% 100%,
+        19% 100%,
+        0 50%,
+        0 50%
+    );
+}
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+    padding: 0px;
+}
+.input-height-40 {
+    height: 40px;
+}
+#hexagon .hexagonpic {
+    object-fit: cover;
+    width: 116px !important;
+    height: 104px;
+}
+
+#hexagon .ant-upload-text {
+    display: none;
+}
+
+.brandiobrandcreate__submitbox {
+    justify-content: center;
+    text-align: center;
+    padding: 35px 0;
+}
+.brandiobrandcreate__submitbox button {
+    /* padding: 15px 50px; */
+}
+.overflowhidden {
+    overflow: hidden;
+}
+.url-input {
+    width: 350px;
+    background-color: var(--white-smoke);
+    padding: 5px 10px;
+    border: 0px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+    .brandiobrandcreate {
+        text-align: center;
+        padding: 20px;
+    }
+    .brandiobrandcreate__contentbox {
+        grid-template-columns: auto;
+    }
+    .brandiobrandcreate__contentbox--label {
+        margin: 10px 0;
+    }
+    .brandiobrandcreate__contentbox--value {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0;
+        align-items: center;
+    }
+
+    .brandiobrandcreate .headingbox {
+        padding-bottom: 60px;
+    }
+    .brandiobrandcreate__uploadbox {
+        flex-direction: column;
+    }
+    .brandiobrandcreate__uploadbox--info {
+        margin: 20px 0;
+    }
+    .brandiobrandcreate .m10 {
+        margin: 20px 0;
+    }
+    .brandiobrandcreate__checkbox {
+        padding-top: 60px;
+        width: 80%;
+        display: table;
+        margin: 0 auto;
+        line-height: 18px;
+    }
+
+    .brandiobrandcreate__uploadbox--upload {
+        margin-right: 0;
+        align-self: center;
+    }
+    .headingbox__main {
+        font-size: 26px;
+    }
+
+    .brandiobrandcreate,
+    .url-input,
+    .primary-textarea,
+    .fullinputbox {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #hexagon.ant-upload-picture-card-wrapper {
+        width: auto;
+    }
+    #brandcoverphoto .ant-upload-picture-card-wrapper {
+        width: auto;
+    }
+    #brandcoverphoto .ant-upload.ant-upload-select-picture-card {
+        border-style: solid;
+    }
+    .primary-input {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .brandioproductcreate-percentage {
+        position: relative;
+        display: block;
+        padding-left: 0;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .item--4 {
+        padding: 20px;
+    }
+    .brandiobrandcreate__contentbox--value {
+        padding: 0 20px;
+    }
+    .primary-input {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .url-input {
+        min-width: 100%;
+        max-width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .brandioproductcreate-percentage {
+        position: relative;
+        display: block;
+        padding-left: 0;
+        margin: 10px 0;
+    }
+}

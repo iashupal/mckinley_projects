@@ -1,0 +1,136 @@
+.footer {
+  display: grid;
+}
+.address {
+  display: grid;
+  grid-template-columns: 4fr 0.6fr 0.6fr;
+}
+.address__logo-title {
+  padding-bottom: 33px;
+  display: inline-block;
+  flex: 1 0 auto;
+  padding-right: 240px;
+}
+.address__logo-title a:link,
+.address__logo-title a:visited {
+  color: var(--black);
+  font-size: 2.5rem;
+  text-decoration: none;
+  font-family: 'promethean', sans-serif;
+}
+.address__paragraph {
+  color: var(--grey);
+  line-height: 30px;
+  font-size: 14px;
+}
+.address__paragraph--link {
+  padding-left: 40px;
+  text-decoration: underline;
+}
+.address__paragraph--link:hover {
+  color: var(--black);
+  cursor: pointer;
+}
+.pipeline {
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.footer__navitem {
+  width: 190px;
+  flex: 0 1 190px;
+  text-align: right;
+}
+
+.footer__navitem--box1 {
+  text-align: left;
+}
+.footer__navitem--box2 {
+  text-align: right;
+}
+
+.footer__navitem--link:link,
+.footer__navitem--link:visited {
+  color: var(--grey) !important;
+  text-decoration: none;
+  height: 30px;
+  display: inline-block;
+  font-size: 14px;
+}
+.footer__navitem--link:hover {
+  color: var(--black) !important;
+}
+.footer-nav-heading {
+  color: var(--grey);
+  padding-bottom: 36px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.copyrights-box {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e3e3e3;
+  justify-content: center;
+  align-items: center;
+  height: 105px;
+}
+.copyrights__paragraph {
+  color: var(--grey);
+  margin: 5px;
+}
+.copyrights {
+  color: #e3e3e3;
+  font-size: 12px;
+}
+
+p {
+  font-size: 0.8rem;
+  color: #808080;
+}
+
+@media screen and (max-width: 767px) {
+  .address {
+    width: 100%;
+    grid-template-columns: auto;
+    box-sizing: border-box;
+  }
+  .address__paragraph--link {
+    white-space: pre;
+    padding-left: 0;
+  }
+  .footer-nav-heading {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  .footer__navitem {
+    text-align: left;
+  }
+  .address__logo-title {
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  .copyrights-box {
+    padding: 50px 0;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .copyrights__paragraph {
+    text-align: center;
+  }
+  .copyrights {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .address__logo-title {
+    padding-right: 10%;
+  }
+  .copyrights-box {
+    height: auto;
+    padding: 30px 0;
+  }
+}

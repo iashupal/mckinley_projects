@@ -1,0 +1,151 @@
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(1) {
+    display: none;
+}
+
+.productdetail__reviewmodal .ant-modal-footer {
+    padding: 0;
+}
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(2),
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(2):visited,
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(2):focus {
+    background-color: var(--han-purple) !important;
+    color: var(--white) !important;
+    width: 100%;
+    border-radius: 0px;
+    border: 0;
+    height: 45px;
+    margin-left: 0px;
+}
+.aifilbtn-inner {
+    position: relative;
+}
+
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(2):hover {
+    background-color: var(--han-purple-hover) !important;
+    border: 0;
+    color: var(--white) !important;
+    text-shadow: none;
+    cursor: pointer;
+}
+.productdetail__reviewmodal .ant-modal-footer button:nth-child(2):active {
+    background-color: var(--han-purple-active) !important;
+    border: 0;
+    color: var(--white) !important;
+    text-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.aifilebtn,
+.aifilebtn:visited,
+.aifilebtn:focus {
+    display: block;
+    border: 1px solid var(--han-purple);
+    background-color: var(--han-purple);
+    color: var(--white) !important;
+    border-radius: 0px;
+    min-width: 200px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    cursor: pointer;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.aifilebtn:hover {
+    background-color: var(--han-purple-hover);
+    border: 1px solid var(--han-purple-hover);
+    color: var(--white) !important;
+    text-shadow: none;
+    cursor: pointer;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.aifilebtn:active {
+    background-color: var(--han-purple-active);
+    border: 1px solid var(--han-purple-active);
+    color: var(--white);
+    text-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+.aifileuploadpage .ant-modal-body {
+    height: "auto";
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.aifileuploadpage .ant-upload-list-item-info .anticon-loading {
+    display: none;
+}
+.aifileuploadpage .ant-modal-title {
+    text-align: center;
+}
+.cloudicon {
+    font-size: 60px;
+    color: var(--dark-gray);
+}
+.aifileuploadpage .ant-upload-select-text button span {
+    display: block;
+    padding-bottom: 30px;
+}
+.aifileuploadpage .ant-upload-list-text {
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.aifileuploadpage-modal__inner--top {
+    padding: 0 0 20px 0;
+}
+.aifileuploadpage-modal__inner--bottom {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ant-modal.productdetail__reviewmodal.aifileuploadpage {
+    width: 700px !important;
+}
+
+.aimultiupload > .multipleupload {
+    padding-right: 0px;
+}
+
+.multipleupload-outer {
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.multipleupload-heading {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.aifileupload-modal__inner--top .ant-upload-select {
+    display: table;
+    float: left;
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #fafafa;
+    border: 1px dashed #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+    border-style: solid;
+    padding-top: 30px;
+}

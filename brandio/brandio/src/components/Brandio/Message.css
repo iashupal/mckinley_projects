@@ -1,0 +1,163 @@
+.messages__list__main .ant-list-item:last-child {
+    border-bottom: 1px solid var(--light-gainsboro);
+}
+
+.messages__list__main .ant-list-item-meta-avatar {
+    margin-top: 5px;
+}
+
+.collapse__list {
+    margin-left: 80px;
+    width: 100%;
+    justify-content: center;
+}
+
+.list__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__fname {
+    color: var(--nero);
+    font-family: Noto Sans KR;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.list__lname {
+    color: var(--grey);
+    font-family: Noto Sans KR;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.list__description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.btn__collapse {
+    display: flex;
+    padding-top: 35px;
+}
+
+.btn__collapse .btn-grey-icon {
+    margin: 0 10px;
+}
+
+.collapse__btn {
+    border-color: var(--grey);
+}
+
+.collapse__btn-delete {
+    margin-left: 25px;
+}
+
+.collapse__image {
+    height: 60px;
+    width: 60px;
+}
+
+.collapse__name__div {
+    margin-left: 15px;
+}
+
+.brandio-message .anticon {
+    top: 22px !important;
+}
+
+.list__item-description {
+    line-height: 2.2;
+}
+.reply-block {
+    display: block;
+}
+.reply-block .ant-avatar {
+    float: left;
+}
+.reply-sender-name {
+    font-weight: bold;
+    font-size: 18;
+    padding: 0 0 20px 0;
+}
+.reply-containt {
+    padding: 0 10px 0 30px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1265px) {
+    .div__sub__messages {
+        width: inherit;
+        max-width: inherit;
+    }
+
+    .div__sub__messages .div__menu__product {
+        flex-direction: row;
+    }
+
+    .div__sub__messages .illustration__main__sidebar {
+        flex-direction: column;
+    }
+
+    .div__sub__messages .collapse__list {
+        margin-left: 80px;
+        width: unset;
+    }
+}
+
+.messages__list__main
+    .ant-collapse-icon-position-right
+    > .ant-collapse-item
+    > .ant-collapse-header
+    .ant-collapse-arrow {
+    right: 5px !important;
+}
+
+.messages__list__main .ant-collapse-header {
+    padding-right: 25px !important;
+    padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 812px) {
+    .collapse__list {
+        margin: 0;
+        width: unset;
+    }
+
+    .div__sub__messages .div__menu__product {
+        flex-direction: column;
+    }
+
+    .div__sub__messages .collapse__list {
+        margin-left: 0px;
+        width: unset;
+    }
+
+    .collapse__list .ant-list-item-meta-avatar {
+        margin-right: 10px !important;
+    }
+
+    .messages__list__main .btn__collapse {
+        flex-direction: column;
+    }
+
+    .messages__list__main .collapse__btn-delete {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .list__item-description {
+        font-size: 12px;
+    }
+
+    .collapse__list .collapse__image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .div__illustration__menu__title {
+        text-align: center;
+    }
+}

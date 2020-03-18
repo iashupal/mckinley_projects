@@ -1,0 +1,43 @@
+.card-box {
+  margin-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.card-box .profile-box1 {
+  padding: 20px;
+  color: #202020;
+}
+b {
+  color: #202020;
+}
+.doctor_personalDetail {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 1fr;
+}
+.content-wrapper {
+  margin-bottom: 20px;
+}
+
+.doctor_edit .doctor_btn_grp{
+  float: right;
+}
+.doctor_edit .doctor_btn_grp .doctor_edit_btn{
+  background-color: #f0f0f0;
+  color: #0FBEA4;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 100px;
+  float: right;
+}
+.doctor_edit .doctor_btn_grp .doctor_edit_btn:hover, .doctor_edit .doctor_btn_grp .doctor_edit_btn:focus{
+  border-color: #c0c0c0;
+}
+.doctor_personalInfo{
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-template-rows: 1fr;
+  width: 80%;
+  grid-gap: 10px;
+}

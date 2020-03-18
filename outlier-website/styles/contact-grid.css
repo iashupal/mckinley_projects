@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 8fr 3fr;
+    gap: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+
+.contact-grid {
+  display: grid;
+  grid-auto-rows: auto;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: auto;
+  margin-bottom: 10%;
+}

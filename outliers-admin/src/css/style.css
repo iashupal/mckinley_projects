@@ -1,0 +1,35 @@
+.ant-table-body .ant-table-row,
+.ant-table-thead tr th {
+  text-align: center;
+}
+
+.cardSpan-heading{
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cardSpan-record{
+  word-break: break-all;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    padding-left: 0;
+    margin: 20px auto;
+    border-radius: 4px;
+    width: 212px;
+}
+
+.pagination>li {
+    display: flex;
+    justify-content: center;
+    min-width: 24px;
+    min-height: 24px;
+    margin: 0;
+    line-height: 22px;
+}
+
+.pagination a {
+    color: rgba(0, 0, 0, 0.65);
+}

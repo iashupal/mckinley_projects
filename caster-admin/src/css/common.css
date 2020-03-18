@@ -1,0 +1,47 @@
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.text-align-center, th.text-align-center, td.text-align-center {
+    text-align: center !important;
+}
+
+th {
+    background-color: transparent !important;
+    text-align: center !important;
+}
+
+td {
+    background-color: #ffffff !important;
+    text-align: center !important;
+}
+
+table {
+    border-color: transparent !important;
+    /* border-spacing: 0 15px !important; */
+}
+
+.btn-transparent, .btn-transparent:hover, .btn-transparent:focus {
+    border-color: transparent;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+}
+
+.divider-vertical {
+    background-color: #9b9b9b;
+}
+
+form {
+    background-color: #ffffff;
+}
+
+.btn-clickable{
+    padding: 0 40px;
+}

@@ -1,0 +1,37 @@
+.popup {
+    position: fixed;
+    top: -120%;
+    left: 38%;
+    z-index: 99999999;
+    background: white;
+    width: 500px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.popupHeader {
+    width: 100%;
+    padding: 2% 4%;
+}
+
+.popupHeader {
+    width: 91%;
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+span.popupClose {
+    color: gray;
+    cursor: pointer;
+}
+
+.popupContainer {
+    padding: 1% 10%;
+    min-height: 410px;
+}
+
+.popup.show {
+    top: 16%;
+}
+

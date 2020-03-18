@@ -1,0 +1,158 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.globaloutliers"
+4    android:versionCode="39"
+5    android:versionName="1.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/ashu/projects/outliers-mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/ashu/projects/outliers-mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:26:5-79
+12-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:27:5-81
+13-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:27:22-78
+14    <uses-permission android:name="android.permission.READ_PROFILE" />
+14-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:28:5-71
+14-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:28:22-68
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:29:5-65
+15-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:29:22-62
+16    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+16-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:30:5-73
+16-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:30:22-70
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:31:5-72
+17-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:31:22-69
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:32:5-81
+18-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:32:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:33:5-67
+19-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:33:22-64
+20    <uses-permission android:name="com.android.vending.BILLING" />
+20-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:34:5-67
+20-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:34:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+21-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:36:5-79
+21-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:36:22-76
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.android.gms:play-services-gcm:16.1.0] /root/.gradle/caches/transforms-2/files-2.1/c5e6b64629d514344f8aeca9240b1014/play-services-gcm-16.1.0/AndroidManifest.xml:23:5-82
+22-->[com.google.android.gms:play-services-gcm:16.1.0] /root/.gradle/caches/transforms-2/files-2.1/c5e6b64629d514344f8aeca9240b1014/play-services-gcm-16.1.0/AndroidManifest.xml:23:22-79
+23
+24    <application
+24-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:5:5-25:19
+25        android:name="com.globaloutliers.MainApplication"
+25-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:6:9-40
+26        android:allowBackup="false"
+26-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:7:9-36
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] /root/.gradle/caches/transforms-2/files-2.1/ccf94a4f227dfa4f17156620e28a8b98/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:8:9-43
+30        android:label="@string/app_name"
+30-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:9:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:10:9-54
+32        android:theme="@style/AppTheme"
+32-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:11:9-40
+33        android:usesCleartextTraffic="true" >
+33-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:12:9-44
+34        <activity
+34-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:14:9-23:20
+35            android:name="com.globaloutliers.MainActivity"
+35-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:15:13-41
+36            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+36-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:16:13-83
+37            android:label="Outliers"
+37-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:17:13-37
+38            android:windowSoftInputMode="adjustPan" >
+38-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:18:13-52
+39            <intent-filter>
+39-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:19:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:20:17-69
+40-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:20:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:21:17-77
+42-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+45-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:24:9-86
+45-->/home/ashu/projects/outliers-mobile/android/app/src/main/AndroidManifest.xml:24:19-83
+46
+47        <receiver
+47-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
+48            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+48-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+49            android:enabled="true"
+49-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-35
+50            android:exported="true" >
+50-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-36
+51            <intent-filter>
+51-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+52                <action android:name="com.android.vending.INSTALL_REFERRER" />
+52-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+52-->[:react-native-device-info] /home/ashu/projects/outliers-mobile/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+53            </intent-filter>
+54        </receiver>
+55
+56        <provider
+56-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+57            android:name="com.imagepicker.FileProvider"
+57-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-56
+58            android:authorities="com.globaloutliers.provider"
+58-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-60
+59            android:exported="false"
+59-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+61            <meta-data
+61-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:58
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+63                android:resource="@xml/provider_paths" />
+63-->[:react-native-image-picker] /home/ashu/projects/outliers-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-55
+64        </provider>
+65
+66        <meta-data
+66-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:13:9-15:37
+67            android:name="com.google.android.play.billingclient.version"
+67-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:14:13-73
+68            android:value="2.0.3" />
+68-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:15:13-34
+69
+70        <activity
+70-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:17:9-20:75
+71            android:name="com.android.billingclient.api.ProxyBillingActivity"
+71-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:18:13-78
+72            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+72-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:19:13-96
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.android.billingclient:billing:2.0.3] /root/.gradle/caches/transforms-2/files-2.1/520cf2ef1412bfe4c9def0e6632dca0c/billing-2.0.3/AndroidManifest.xml:20:13-72
+74        <activity
+74-->[com.google.android.gms:play-services-base:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/3080eed180765bfc7998d6ec12ccbed2/play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/3080eed180765bfc7998d6ec12ccbed2/play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/3080eed180765bfc7998d6ec12ccbed2/play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/3080eed180765bfc7998d6ec12ccbed2/play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/5d4779b69cfc290fa8cec36950eb925e/play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/5d4779b69cfc290fa8cec36950eb925e/play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:16.0.1] /root/.gradle/caches/transforms-2/files-2.1/5d4779b69cfc290fa8cec36950eb925e/play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+82    </application>
+83
+84</manifest>

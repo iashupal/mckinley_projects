@@ -1,0 +1,142 @@
+.appointment-calendar-div {
+  /* box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+  /* -moz-box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+  /* -webkit-box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+  margin-top: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-grow: 1;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+.appointment-calendar-div .calender-section {
+  width: 50%;
+  /* border-right: 1px solid rgba(0, 0, 0, 0.05); */
+}
+
+.appointment-calendar-div .ant-select-sm .ant-select-selection--single {
+  border: 0;
+}
+
+.appointment-calendar-div .ant-select-arrow {
+  display: none;
+}
+
+.appointment-calendar-div .ant-row-flex-space-between {
+  justify-content: center;
+  position: relative;
+}
+
+.appointment-calendar-div .ant-select-sm .ant-select-selection__rendered {
+  color: #2c3135;
+  font-weight: bold;
+}
+
+.appointment-calendar-div .ant-fullcalendar-selected-day .ant-fullcalendar-value {
+  width: 60px;
+  /* border-radius: 20px; */
+  background-color: #ff6464;
+}
+
+.appointment-calendar-div .ant-fullcalendar {
+  border-top: none;
+}
+
+.appointment-calendar-div .ant-fullcalendar-date {
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 60px;
+  padding: 10px 0;
+}
+
+.appointment-calendar-div .ant-fullcalendar-today .ant-fullcalendar-value {
+  width: 60px;
+  /* border-radius: 20px; */
+}
+
+.appointment-calendar-div .ant-fullcalendar-column-header {
+  padding-bottom: 20px;
+}
+
+.appointment-calendar-div .ant-fullcalendar-value {
+  height: 35px;
+  line-height: 35px;
+  font-size: 10px;
+  font-weight: 600;
+  position: relative;
+}
+
+.appointment-calendar-div .ant-fullcalendar-last-month-cell {
+  border-radius: 2px;
+  background-color: #fafcfe;
+}
+
+.appointment-calendar-div .ant-fullcalendar-value:hover {
+  background: #fff;
+}
+
+.appointment-calendar-div .ant-fullcalendar-selected-day .ant-fullcalendar-value:hover {
+  /* background: #fc8642; */
+  background: #ff6464;
+}
+
+.appointment-calendar-div .ant-fullcalendar-value .point {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: #fc8642;
+  left: 50%;
+  top: 5px;
+  border-radius: 50%;
+}
+
+.appointment-calendar-div .ant-select-selection:active,
+.appointment-calendar-div .ant-select-selection:focus {
+  box-shadow: none;
+}
+
+.table-section {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.table-section .appointment-table .table {
+  box-shadow: none;
+}
+
+.table-section .appointment-table .table thead th {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.appointment-calendar-div .next-pre {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-calendar-div .next-pre img {
+  cursor: pointer;
+  position: relative;
+  top: -25px;
+}
+
+.appointment-calendar-div .rotate {
+  top: -22px;
+  transform: rotate(900deg);
+}
+
+@media only screen and (max-width: 767px) {
+  .appointment-calendar-div {
+    display: inline-block;
+  }
+  .appointment-calendar-div .calender-section {
+    width: 100%;
+  }
+}
+
+.ant-select-disabled .ant-select-selection {
+  cursor: default;
+  background: none;
+}

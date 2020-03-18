@@ -1,0 +1,25 @@
+.flat-action {
+  color: #ddd;
+  font-size: 16px;
+  line-height: 36px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  width: max-content;
+  height: 36px;
+  transition: all 0.3s ease-in;
+  box-sizing: border-box;
+}
+
+.flat-action > * {
+  text-decoration: none;
+  color: #ddd;
+}
+
+.flat-action--primary,
+.flat-action--primary > * {
+  color: #ddd;
+}
+
+.flat-action:hover {
+  color: #fff;
+}

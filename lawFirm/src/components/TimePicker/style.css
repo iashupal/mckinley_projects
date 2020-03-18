@@ -1,0 +1,18 @@
+.rc-time-picker-input {
+  font-size: 13px;
+}
+.rc-time-picker-clear-icon {
+  display: none;
+}
+.timePickerContainer {
+  position: relative;
+}
+.rc-time-picker-input {
+  padding: 4px 4px;
+}
+/* media query css */
+@media screen and (max-width: 1280px) {
+  .rc-time-picker {
+    width: initial;
+  }
+}

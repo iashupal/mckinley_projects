@@ -1,0 +1,148 @@
+.mybrands__row {
+  padding: 0;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+}
+
+.mybrands__title {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  color: var(--nero);
+  font-weight: bold;
+  padding: 20px 0px 5px 0px;
+}
+
+.mybrands__desp {
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.mybrands__price {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  color: var(--grey);
+}
+.mybrand__delete__icon {
+  margin-left: 20px !important;
+  height: 15px;
+}
+.mybrand__delete__icon:hover,
+.mybrand__delete__icon:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+    brightness(104%) contrast(97%);
+}
+.mybrand__checkmark__icon {
+  margin-left: 20px !important;
+  height: 15px;
+}
+.mybrands__btn {
+  border: 1px solid var(--dark-gray);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Noto Sans KR;
+  width: 125px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mybrands__btn1 {
+  margin-bottom: 10px;
+  border-color: var(--grey);
+  color: var(--grey);
+  font-family: Noto Sans KR;
+  width: fit-content;
+}
+
+.usercard__btn {
+  margin-bottom: 10px;
+  border-color: var(--followers-text-color);
+  color: var(--followers-text-color);
+  font-family: Noto Sans KR;
+  width: 100%;
+}
+
+.mybrands__btn1:hover,
+.mybrands__btn1:focus {
+  border-color: var(--slate-blue) !important;
+  color: var(--slate-blue) !important;
+}
+
+.mybrands__btn-check {
+  margin-bottom: 10px;
+  border: 1px solid #9a6ef7;
+  font-family: Noto Sans KR;
+  width: fit-content;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.checkmark-label {
+  color: '#9A6EF7';
+}
+
+.sub__div__mybrands__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mybrands__product-border {
+  border: 1px solid var(--slate-blue);
+}
+#brandiomybrands .main__product__div {
+  grid-gap: 20px;
+  display: grid;
+  padding: 20px;
+  background-color: var(--smoke);
+  margin-top: 0px;
+  grid-template-columns: repeat(3, 1fr);
+}
+#brandiomybrands .main__product__div .illustation__div {
+  margin: 0;
+}
+a.active-bold {
+  font-weight: 'bold';
+}
+@media screen and (max-width: 1265px) {
+  .illustaration__list {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .mybrands__btn1,
+  .mybrands__btn-check {
+    margin: 10px auto;
+    width: 100%;
+    height: 40px !important;
+    padding-top: 9px;
+  }
+
+  #brandiomybrands .div__menu__product,
+  div#brandiomybrands {
+    margin: 10px;
+  }
+  #brandiomybrands .kidsmart__description {
+    margin-bottom: 40px;
+  }
+  #brandiomybrands .main__product__div {
+    grid-template-columns: auto;
+  }
+}

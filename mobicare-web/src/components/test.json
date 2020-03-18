@@ -1,0 +1,73 @@
+{
+  "noOfPendingAppointment": 0,
+  "noOfConfirmedAppointment": 0,
+  "noOfUnreadMessages": 55,
+  "response": [
+    {
+      "notificationType": "appointment",
+      "_id": "5d6f05cf7b88f23ef69aacea",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d6f05cf7b88f23ef69aace9",
+      "createdAt": "2019-09-04T00:31:11.630Z"
+    },
+    {
+      "notificationType": "appointment",
+      "_id": "5d6ef8337b88f23ef69aace6",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d6ef8337b88f23ef69aace5",
+      "createdAt": "2019-09-03T23:33:07.734Z"
+    },
+    {
+      "notificationType": "appointment",
+      "_id": "5d6aacad5a73a0287ca1b3e7",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d6aacad5a73a0287ca1b3e6",
+      "createdAt": "2019-08-31T17:21:49.912Z"
+    },
+    {
+      "notificationType": "appointment",
+      "_id": "5d69074da0ee9220dbeb27c9",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d69074da0ee9220dbeb27c8",
+      "createdAt": "2019-08-30T11:23:57.143Z"
+    },
+    {
+      "notificationType": "message",
+      "_id": "5d6655a1b438b80e98a05180",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d6655a1b438b80e98a0517f",
+      "createdAt": "2019-08-28T10:21:21.008Z"
+    },
+    {
+      "notificationType": "appointment",
+      "_id": "5d665110b438b80e98a0517e",
+      "patientId": {
+        "_id": "5d3157eabddda02a8cc04e91",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "messageOrAppointmentId": "5d665110b438b80e98a0517d",
+      "createdAt": "2019-08-28T10:01:52.791Z"
+    }
+  ]
+}

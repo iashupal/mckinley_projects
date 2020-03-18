@@ -1,0 +1,144 @@
+.editor--main-navbar {
+  height: 3rem;
+}
+
+.editor--secondary-navbar {
+  top: 3rem;
+}
+
+.editor {
+  padding: 0px 0 100px 0;
+}
+
+.editor--main {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 0px 6fr 70px 360px;
+  grid-template-rows: calc(100vh - 2.5rem);
+}
+
+.editor--content-bar {
+  background-color: #ffffff;
+}
+
+.editor--content-selector {
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #f2f3f7;
+}
+
+.editor--right-bar {
+  background-color: #ffffff;
+  border-left: 1px solid #e4e4e4;
+}
+
+.editor--display {
+  display: grid;
+  grid-template-columns: auto 50px 20px;
+  grid-template-rows: 1fr;
+  overflow-y: auto;
+  background-color: #f2f3f7;
+}
+
+.editor-subheading {
+  color: var(--suva-grey);
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 0;
+}
+
+button.bx--header__action {
+  border-radius: 3px;
+  height: 2rem;
+  margin: 0 0 10px 0;
+}
+
+button.bx--header__action > svg {
+  fill: var(--black);
+}
+
+button.bx--header__action:hover {
+  border-color: var(--black);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.modal-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 200px;
+  grid-auto-rows: 200px;
+  grid-gap: 30px;
+}
+
+.scaling-toast {
+  background: black;
+  opacity: 0.8;
+  border-radius: 50px;
+  transition: 1s;
+  width: 200px;
+  height: 70px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.scaling-toast span {
+  opacity: 1;
+  color: white;
+  vertical-align: middle;
+}
+
+.toast-grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.toast-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 0px 0px 6fr 300px;
+}
+
+.new-editor {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 360px;
+  grid-template-rows: calc(100vh - 2.5rem);
+}
+
+.new-editor-left {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px auto;
+}
+
+.new-editor-action-bar {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(16, 40px) 45px;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.exporting-loader {
+  display: grid;
+  grid-template-rows: 200px 300px 300px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}

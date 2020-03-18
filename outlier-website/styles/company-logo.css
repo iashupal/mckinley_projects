@@ -1,0 +1,14 @@
+.company-logo {
+  --logo-size: 70px;
+  position: absolute;
+  width: var(--logo-size);
+  height: 35px;
+  top: calc((9.4rem - var(--logo-size)) / 2);
+  left: 2.5%;
+  background: url(/static/images/logo/logo.jpg);
+  background-position: center;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+}

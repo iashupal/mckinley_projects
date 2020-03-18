@@ -1,0 +1,21 @@
+.usercard {
+  margin-bottom: 16px;
+}
+
+.usercard__images {
+  object-fit: cover;
+  max-width: 100%;
+  height: 250px;
+}
+
+.usercard__btn--accept {
+  background-color: #bae637;
+}
+
+.usercard__btn--reject {
+  background-color: #ffa39e;
+}
+
+.usercard__btn--pending {
+  background-color: #ffec3d;
+}

@@ -1,0 +1,106 @@
+.checkbox {
+    // width: 36%;
+    // margin: 15px auto;
+    position: relative;
+    display: inline-block;
+}
+
+.checkbox input[type="checkbox"] {
+    width: auto;
+    opacity: 0.00000001;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+}
+.checkbox label {
+    position: relative;
+}
+.checkbox label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 6px;
+    margin: 4px;
+    width: 15px;
+    height: 15px;
+    transition: transform 0.28s ease;
+    border-radius: 0;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+.checkbox label:after {
+  content: '';
+    display: block;
+    width: 10px;
+    height: 5px;
+    border-bottom: 2px solid #4179E3;
+    border-left: 2px solid #4179E3;
+    -webkit-transform: rotate(-45deg) scale(0);
+    -moz-transform: rotate(-45deg) scale(0);
+    -ms-transform: rotate(-45deg) scale(0);
+    transform: rotate(-45deg) scale(0);
+    position: absolute;
+    top: 13px;
+    left: 7px;
+}
+.checkbox input[type="checkbox"]:checked ~ label::before {
+    color: #4179E3;
+}
+
+.checkbox input[type="checkbox"]:checked ~ label::after {
+    -webkit-transform: rotate(-45deg) scale(1);
+    -moz-transform: rotate(-45deg) scale(1);
+    -ms-transform: rotate(-45deg) scale(1);
+    transform: rotate(-45deg) scale(1);
+}
+
+.checkbox label {
+    min-height: 27px;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+    vertical-align: sub;
+}
+.checkbox label span {
+    position: absolute;
+    top: 62%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: 0;
+}
+
+// 1640px media query
+@media screen and (max-width:1640px){
+    .checkbox{
+        // width: 40%;
+    }
+}
+// 1540px css code
+@media query and (max-width:1540px){
+    .checkbox{
+        width: 110px;
+    }
+    .checkbox label span{
+        font-size: 14px !important;
+    }
+}
+// 767px css code
+
+
+// 450px css code
+@media screen and (max-width:450px){
+    .checkbox label{
+        padding-left: 25px;
+    }
+    .checkbox label:before{
+        margin-left: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 1px;
+        top: 5px;
+    }
+}

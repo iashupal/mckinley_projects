@@ -1,0 +1,17 @@
+.ant-pagination {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ant-pagination-item-active {
+    border-color: #ff9e1a;
+    background: #ff9e1a;
+}
+
+.ant-pagination-item-active a {
+    color: #fff;
+}
+
+.ant-pagination-item-active:focus a, .ant-pagination-item-active:hover a {
+    color : #fff
+}

@@ -1,0 +1,76 @@
+.bestsellers {
+  padding-bottom: 90px;
+}
+.bestsellers__heading {
+  padding-top: 90px;
+  padding-bottom: 40px;
+  text-align: center;
+  margin: 0 auto;
+}
+#bestsellers .pcard__container {
+  width: 24%;
+  margin: 10px 0;
+}
+/* .bradio-bestseller #bestsellers .pcard__container {
+    background-color: #f5f5f5;
+}
+.bradio-bestseller #bestsellers .pcard__footer,
+.bradio-bestseller #bestsellers .pcard__header-brand,
+.bradio-bestseller #bestsellers .pcard__product-image-box {
+    background-color: transparent;
+}
+.bradio-bestseller .brand-name-inner {
+    padding: 0px 0px 0px 5px;
+} */
+.brandio-collaboration .brandiopcard__container {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+#bestsellers .product-card-list-outer {
+  justify-content: center !important;
+}
+#bestsellers .pcard__container {
+  padding: 10px;
+}
+#bestsellers .pcard__header-artists {
+  padding: 10px;
+}
+#bestsellers .pcard__footer {
+  margin-top: -2px;
+}
+
+/* collaboration studio */
+.collaboration_prod {
+  width: 23%;
+  margin: 0 10px;
+  max-width: 23%;
+}
+
+@media screen and (max-width: 767px) {
+  .bestsellers__heading {
+    padding-bottom: 20px;
+  }
+  #bestsellers .pcard__container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #bestsellers .product-card-list-outer {
+    justify-content: center;
+  }
+  #bestsellers .pcard__container {
+    width: 48.5%;
+    margin-bottom: 6px;
+  }
+  .collaboration_prod {
+    width: 40%;
+    max-width: 40%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .collaboration_prod {
+    width: 50%;
+    max-width: 50%;
+  }
+}

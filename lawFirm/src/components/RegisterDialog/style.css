@@ -1,0 +1,19 @@
+.rg_dialog .MuiPaper-root {
+  background-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+.MuiDialogContent-root {
+  padding: 0 0;
+}
+.MuiDialogContent-dividers {
+  padding: 0 0;
+  border-top: 0px solid !important;
+  border-bottom: 0px solid !important;
+}
+.MuiDialogContent-root:first-child {
+  padding-top: 0;
+}
+
+.MuiBackdrop-root {
+  background-color: rgba(0, 0, 0, 0.6);
+}

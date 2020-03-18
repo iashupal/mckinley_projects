@@ -1,0 +1,47 @@
+.signin {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.hero {
+  background: url(../images/signin.jpg);
+  background-size: cover;
+}
+
+.form-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  overflow: auto;
+}
+
+.signin-form-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  overflow: auto;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+.form img {
+  margin: 0 auto;
+}
+.form h2 {
+  font-size: 18px;
+  text-align: center;
+  color: #808080;
+}
+.sign-up-modal {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.padding50 {
+  padding: 50px 0;
+}

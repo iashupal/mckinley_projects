@@ -1,0 +1,12 @@
+.career-side-menu {
+  display: grid;
+  grid-auto-flow: row;
+  font-family: Hel-Md;
+  color: #333333;
+}
+
+.career-side-menu > p {
+  font-size: 15;
+  line-height: 36px;
+  margin: 0;
+}

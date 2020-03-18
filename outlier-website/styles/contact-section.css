@@ -1,0 +1,61 @@
+@media screen and (min-width: 768px) {
+  .contact-section__title {
+    font-size: 22px;
+    height: 34px;
+  }
+
+  .contact-section__flat-action {
+    font-size: 30px;
+    height: 48px;
+    cursor: pointer;
+  }
+
+  .contact-section__detail {
+    font-size: 30px;
+    line-height: 48px;
+  }
+
+.contact-section__flat-action:hover {
+    border-color: #909090;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .contact-section__title {
+    font-size: 18px;
+    height: 28px;
+  }
+
+  .contact-section__flat-action {
+    font-size: 26px;
+    height: 34px;
+  }
+
+  .contact-section__detail {
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
+
+.contact-section {
+  display: grid;
+  grid-auto-rows: auto;
+  gap: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+  align-content: start;
+}
+
+.contact-section__flat-action {
+  box-sizing: border-box;
+  border-bottom: 4px solid #ffffff;
+  width: max-content;
+  transition: border-color 100ms ease-in;
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-section__flat-action:hover {
+    border-color: #909090;
+}

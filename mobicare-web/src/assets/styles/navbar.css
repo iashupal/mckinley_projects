@@ -1,0 +1,112 @@
+.container {
+  max-width: 1280px;
+}
+.navbar {
+  /* -webkit-box-shadow: -1px 11px 8px 1px rgba(130,130,130,0.54);  */
+  /* box-shadow: 0 2px 17px 2px rgba(0, 0, 0, 0.12); */
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  border-bottom: 1px solid #ff9e1a;
+}
+.navbar .ant-menu-horizontal {
+  border-bottom: 0;
+}
+.ant-menu-horizontal > .ant-menu-item {
+  border: 0;
+  line-height: 33px;
+  padding: 15px 20px;
+}
+.navbar .ant-menu-horizontal > .ant-menu-item:hover {
+  border: none;
+  color: initial;
+}
+.navbar .ant-menu-item.ant-menu-item-selected a {
+  background: linear-gradient(-44deg, #ffcd38 0%, #ff9e1a 100%);
+  color: #fff;
+  border-radius: 30px;
+  line-height: 30px;
+  padding: 2px 12px;
+}
+.navbar .ant-menu-item.ant-menu-item-selected a svg {
+  fill: #fff !important;
+}
+.navbar .ant-menu-horizontal {
+  line-height: 0 !important;
+}
+.navbar .logo-icon {
+  padding-right: 5%;
+}
+.navbar .ant-menu-submenu-title {
+  line-height: 55px;
+}
+.navbar .ant-menu-horizontal > .ant-menu-item > a svg {
+  width: 20px;
+  position: relative;
+  top: 4px;
+  fill: #626262;
+  right: 1px;
+  transition: all 0.5s ease;
+}
+.navbar .ant-menu-horizontal > .ant-menu-item > a svg.message {
+  top: 6px;
+  right: 3px;
+  font-size: 12px !important;
+}
+.navbar .ant-menu-horizontal > .ant-menu-item > a svg.appointments {
+  top: 5px;
+  right: 3px;
+  font-size: 18px;
+}
+.navbar .ant-menu-horizontal > .ant-menu-item > a svg.patients {
+  top: 5px;
+}
+.navbar .ant-menu-item a:hover svg {
+  fill: #fc8642;
+}
+.navbar .logo-icon {
+  padding-left: 0;
+}
+.navbar .logo-icon img {
+  width: 80px;
+}
+.navbar .logo-icon a {
+  display: inline-block;
+  padding: 20px 0;
+}
+.logo-menu {
+  float: left;
+  border: none;
+}
+.menu-center {
+  text-align: center;
+}
+.navbar .right-menu {
+  text-align: right;
+  border: 0;
+  position: relative;
+}
+.navbar .menu-center {
+  width: 85%;
+  float: left;
+}
+.navbar .box-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ff9e1a;
+  color: red;
+  display: inline-block;
+  position: absolute;
+  top: 13px;
+  right: 5px;
+}
+.navbar .box-circle img {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.ant-menu-sub svg {
+  width: 15px !important;
+}

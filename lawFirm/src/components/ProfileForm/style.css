@@ -1,0 +1,8 @@
+.profile_table td {
+	border-top: 0;
+	vertical-align: top !important;
+	padding: 5px 8px !important;
+}
+.tab1-form.tab2-form .table tbody tr td:first-child {
+	background-color: white;
+}

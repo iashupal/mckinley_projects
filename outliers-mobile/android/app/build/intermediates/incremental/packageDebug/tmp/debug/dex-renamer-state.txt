@@ -1,0 +1,4 @@
+#Tue Feb 04 18:03:16 IST 2020
+base.0=/home/ashu/projects/outliers-mobile/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

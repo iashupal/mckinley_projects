@@ -1,0 +1,182 @@
+/* top | right | bottom | left */
+.subdiv__list {
+  margin: auto;
+  background-color: var(--white);
+  height: 50.03px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.subdiv__person__name {
+  margin: 0 0 0 10px;
+  font-family: Noto Sans KR;
+  font-size: 13px;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.div__flexed {
+  display: flex;
+  align-items: center;
+}
+
+.div__list {
+  display: flex;
+  flex-direction: column;
+}
+.product__image {
+  width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: contain;
+}
+.product__btn {
+  height: 15px;
+  width: 15px;
+  margin-left: 50px;
+  border-radius: 0 !important;
+}
+.product__btn--black:hover {
+  background-color: var(--black);
+}
+.product__btn--blue:hover {
+  background-color: var(--bondi-blue);
+}
+.product__btn--green:hover {
+  background-color: var(--kelly-green);
+}
+.product__btn--black {
+  background-color: var(--gondola);
+  border: 1px solid var(--gondola);
+  margin-left: 10px;
+}
+.product__btn--blue {
+  background-color: var(--pacific-blue);
+  border: 1px solid var(--pacific-blue);
+  margin-left: 10px;
+}
+.product__btn--green {
+  background-color: var(--forest-green);
+  border: 1px solid var(--forest-green);
+  margin-left: 10px;
+}
+.product__btn__group {
+  position: relative;
+}
+
+.product__list__btn-div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.div__kidsmart {
+  height: 279px;
+  background-color: var(--white);
+  display: flex;
+  padding: 45px;
+}
+.bradio__div__kidsmart {
+  height: 279px;
+  background-color: var(--white);
+  display: flex;
+}
+.img__kidsmart {
+  /* top | right | bottom | left */
+  margin: 0;
+  width: 190px;
+  height: auto;
+}
+
+.sub__div__kidsmart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kidsmart__description {
+  font-size: 14px;
+  margin-top: 27px;
+  font-family: Noto Sans KR;
+  opacity: 0.5;
+  line-height: 23px;
+}
+
+.kidmart__title {
+  font-size: 17px;
+  font-family: Noto Sans KR;
+  color: var(--nero);
+}
+
+.kidmart__title__bold {
+  color: var(--nero);
+  font-size: 25px;
+  font-family: Noto Sans KR;
+  font-weight: 900;
+}
+
+.kidsmart__image {
+  display: flex;
+  align-items: center;
+}
+
+.verical__line {
+  border-left: 1px solid var(--dark-gray);
+  height: 186px;
+  margin: 0 35px;
+}
+
+.verical__line__noborder {
+  margin: 0 35px;
+}
+
+.mybrands__sales {
+  padding-right: 10px;
+}
+
+.product__close__icon {
+  font-size: 20px !important;
+  color: var(--white-lilac) !important;
+}
+
+.product__person-image {
+  height: 30px;
+}
+
+.artist-photo {
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+}
+
+@media screen and (max-width: 812px) {
+  .bradio__div__kidsmart {
+    height: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bradio__kidmart {
+    margin-top: 50px;
+  }
+
+  .product__person-image {
+    height: 20px;
+  }
+
+  .subdiv__person__name {
+    font-size: 12px !important;
+  }
+
+  .product__close__icon {
+    font-size: 15px !important;
+  }
+
+  .product__btn__group {
+    height: unset !important;
+  }
+}

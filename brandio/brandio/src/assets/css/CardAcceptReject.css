@@ -1,0 +1,28 @@
+.cardacceptreject-outer {
+    padding-top: 85px;
+}
+.brandio-ar-card {
+    background-color: var(--white);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: flex-end;
+    grid-gap: 10px;
+    padding: 20px;
+}
+.brandio-ar-card__content {
+    align-self: flex-start;
+}
+.brandio-ar-card__footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+.exported-images {
+    height: 145px;
+    margin: 0 auto;
+}

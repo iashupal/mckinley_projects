@@ -1,0 +1,16 @@
+ 
+ .tab1{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-template-rows:1fr;
+    grid-gap:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+ @media screen and (max-width:992px){
+     .tab1{
+        grid-template-columns: 13fr;
+        // width: 100%;
+     }
+ }

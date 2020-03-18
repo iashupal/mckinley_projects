@@ -1,0 +1,17 @@
+.tile {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  grid-template-rows: auto 20px;
+  grid-template-columns: 1fr;
+  border: 5px solid rgb(255, 255, 255);
+  color: var(--black);
+  border-radius: 4px;
+}
+
+.tile--title {
+  background: white;
+  padding: 7px 5px;
+  text-align: center;
+  font-size: 13px;
+}

@@ -1,0 +1,33 @@
+.custom-row {
+  display: flex;
+  flex-flow: 1;
+  flex-wrap: wrap;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
+.content-wrapper {
+  width: 100%;
+  background-color: white;
+  padding: 0 25px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-title-right {
+  float: right;
+}
+
+.right-text {
+  margin-right: 10px;
+}
+
+.left-text {
+  margin-left: 5px;
+}
+
+.modal-wrapper {
+  background: transparent;
+  width: 50%;
+}

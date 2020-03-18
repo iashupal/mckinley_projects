@@ -1,0 +1,26 @@
+/**
+* TODO: Encapsulate every Heading Instance in a 
+* Heading Section and remove block margin here and
+* in heading-section.css
+*/
+
+.heading {
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 100px auto;
+}
+
+.heading > h1 {
+  color: #333333;
+  font-size: 28px;
+  max-width: 550px;
+  letter-spacing: -0.1px;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .heading > h1 {
+    font-size: 36px;
+    line-height: 1.75;
+  }
+}

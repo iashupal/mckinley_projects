@@ -1,0 +1,11 @@
+.side_menu {
+  background: #001c3c !important;
+}
+.side_menu .ant-menu-item-selected,
+.side_menu .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background: transparent !important;
+}
+.side_menu .ant-menu-item-selected span,
+.side_menu .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected span {
+  color: #3cbbf6 !important;
+}

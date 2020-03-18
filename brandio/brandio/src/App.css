@@ -1,0 +1,38 @@
+:root {
+    --slate-blue: #9a6ef7;
+    --white: #ffffff;
+    --black: #000000;
+    --nero: #2d2d2d;
+    --grey: #787878;
+    --dark-gray: #a8a8a8;
+    --silver: #c6c6c6;
+    --gainsboro: #dcdbdb;
+    --white-gainsboro: #d9d9d9;
+    --dark-gainsboro: #e0e0e0;
+    --light-gainsboro: #e8e8e8;
+    --dim-gray: #707070;
+    --followers-text-color: #ababab;
+    --white-smoke: #f7f7f7;
+    --smoke: #f4f4f4;
+    --zircon: #e6e7e8;
+    --white-lilac: #dddde2;
+    --bondi-blue: #0397ad;
+    --kelly-green: #39850d;
+    --gondola: #363636;
+    --pacific-blue: #02a7c1;
+    --forest-green: #418819;
+    --cosmos: #fcd5d2;
+    --light-white-smoke: #eeeeee;
+    --suva-grey: #929292;
+    --grey-75: #bfbfbf;
+    --usercard-hover: #9a6ef7;
+
+    /*---added by v---*/
+    --han-purple: #6319ff;
+    --han-purple-hover: #822afc;
+    --han-purple-active: #6913e2;
+}
+
+.sketch-picker {
+    width: 94% !important;
+}

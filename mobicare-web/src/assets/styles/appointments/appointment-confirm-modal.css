@@ -1,0 +1,57 @@
+.appointment-confirm-modal .ant-modal-wrap {
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.appointment-confirm-modal.ant-modal {
+  width: 395px !important;
+  text-align: center;
+}
+
+.appointment-confirm-modal .profile-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #d1d1d1;
+}
+
+.appointment-confirm-modal .event-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #696969;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.appointment-confirm-modal .date {
+  line-height: 10px;
+}
+
+.appointment-confirm-modal .box {
+  text-align: left;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.appointment-confirm-modal .box svg {
+  fill: #696969;
+  width: 18px;
+  position: relative;
+  top: 6px;
+}
+
+.appointment-confirm-modal .btn-section {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.appointment-confirm-modal .btn-section button {
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .appointment-confirm-modal.ant-modal {
+    width: 80% !important;
+  }
+}

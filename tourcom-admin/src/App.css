@@ -1,0 +1,38 @@
+.app__layout {
+  min-height: 100vh;
+}
+
+.app__logo {
+  height: 32px;
+  background: #e8e8e8;
+  margin: 16px;
+}
+
+.app__navTrigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+.app__navTrigger:hover {
+  color: #1890ff;
+}
+
+.app__logout {
+  cursor: pointer;
+  float: right;
+  padding: 0 24px;
+}
+
+.app__logout:hover {
+  color: #1890ff;
+}
+
+.app__content {
+  margin: 16px 16px;
+}
+
+.app__footer {
+  text-align: center;
+}

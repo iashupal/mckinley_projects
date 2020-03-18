@@ -1,0 +1,15 @@
+.content-title-right {
+  float: right;
+}
+
+.list-button {
+  margin-right: 5px;
+  width: 120px;
+}
+
+.list-button i,
+.calender-button i {
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 3px;
+}

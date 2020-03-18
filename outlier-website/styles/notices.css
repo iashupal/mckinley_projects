@@ -1,0 +1,50 @@
+.notices-page {
+    margin: 10% 0%;
+}
+
+.noticesContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+/* .noticesContainer h1 {
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+} */
+
+.noticesContent {
+    margin-top: 8%;
+}
+
+h1.noticeHeroText {
+    margin-top: 22%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 52px;
+    margin-bottom: 28%;
+}
+
+.noticesContainer p {
+    line-height: 1.8em;
+}
+
+@media screen and (max-width: 767px){
+  h1.noticeHeroText {
+    margin-top: 34%;
+    margin-left: 6%;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #333333;
+    line-height: 1.75;
+    font-size: 30px;
+    margin-bottom: 40%;
+}
+
+.noticesContainer {
+    width: 100%;
+    margin: 0 auto;
+}
+}

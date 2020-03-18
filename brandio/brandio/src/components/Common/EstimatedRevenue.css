@@ -1,0 +1,40 @@
+.estimatedrevenue {
+    padding: 30px;
+    border: 1px solid #d4d4d4;
+}
+#pricetableone {
+    border-collapse: collapse;
+    width: 100%;
+}
+#pricetableone td,
+#pricetableone th {
+    padding: 8px;
+    vertical-align: top;
+}
+
+hr.greyborder {
+    border: 0;
+    height: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.noborderdropdown {
+    display: flex;
+    align-items: center;
+}
+.noborderdropdown > .ant-btn {
+    width: auto !important;
+    box-shadow: none;
+    border: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .estimatedrevenue {
+        padding: 0;
+        width: 100%;
+    }
+    #pricetableone td.text-left {
+        width: 48%;
+    }
+}

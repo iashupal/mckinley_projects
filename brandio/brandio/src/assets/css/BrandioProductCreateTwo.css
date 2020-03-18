@@ -1,0 +1,367 @@
+.brandioproductcreate {
+  padding-bottom: 80px;
+}
+.headingbox {
+  padding-top: 36px;
+  padding-bottom: 35px;
+}
+.headingbox__main {
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: inherit;
+  margin: 0;
+}
+.headingbox__sub {
+  font-size: 14px;
+  margin: 0;
+  padding-top: 16px;
+}
+.brandioproductcreate__contentbox {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 10px 0;
+  align-items: flex-start;
+}
+.brandioproductcreate__contentbox--label {
+  justify-content: center;
+}
+.brandioproductcreate__contentbox--value {
+  justify-content: center;
+  padding: 0px;
+}
+.fullinputbox {
+  background-color: var(--white-smoke);
+  padding: 0 10px;
+  border: 0px;
+  line-height: 28px;
+  display: grid;
+  grid-template-columns: 4fr auto;
+  align-items: center;
+  justify-content: center;
+}
+.fullinputbox__field {
+  background-color: var(--white-smoke);
+  padding: 5px 0px;
+  border: 0px;
+  line-height: 28px;
+}
+.fullinputbox__badge {
+  background-color: var(--white-smoke);
+  color: var(--nero);
+  padding: 0 10px;
+}
+.fulltextarea {
+  background-color: var(--white-smoke);
+  padding: 0 10px;
+  border: 0px;
+  line-height: 28px;
+  display: grid;
+  grid-template-columns: 4fr auto;
+  align-items: flex-end;
+  justify-content: center;
+}
+.fulltextarea__field {
+  background-color: var(--white-smoke);
+  border: 0px;
+  line-height: 28px;
+  height: 247px;
+  max-height: 247px;
+  resize: none;
+}
+.fulltextarea__badge {
+  background-color: var(--white-smoke);
+  color: var(--nero);
+  padding: 0 10px;
+}
+.primary-input {
+  background-color: var(--white-smoke);
+  padding: 5px 10px;
+  border: 0px;
+  line-height: 28px;
+  min-width: 200px;
+}
+.primary-textarea {
+  background-color: var(--white-smoke);
+  padding: 5px 10px;
+  border: 0px;
+  width: 100%;
+  height: 134px;
+}
+.brandioproductcreate__uploadbox {
+  display: flex;
+  padding: 0 20px;
+}
+.brandioproductcreate__uploadbox--upload {
+  margin-right: 40px;
+}
+
+.brandioproductcreate__uploadbox--info {
+  border: 1px solid var(--silver);
+  min-width: 270px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.brandioproductcreate__brandlogobox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.brandioproductcreate__brandlogo {
+  padding-right: 10px;
+}
+.brandioproductcreate__brandname {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.helpinfo {
+  font-size: 12px;
+  margin: 15px 0px 0px 0px;
+}
+.brandioproductcreate__checkbox {
+  padding-bottom: 31px;
+  display: flex;
+  align-items: center;
+  line-height: 38px;
+}
+.checkbox-info {
+  padding-left: 30px;
+}
+
+.brandioproductcreate__submitbox {
+  justify-content: center;
+  text-align: center;
+  padding: 35px 0;
+  display: flex;
+}
+
+.overflowhidden {
+  overflow: hidden;
+}
+.section-one {
+  margin: 0px;
+  padding-bottom: 37px;
+}
+.brandioproductcreate__headingone {
+  padding: 40px 0 36px 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+.brandioproductcreate__heading {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 80px 0 40px 0;
+  margin: 0;
+}
+.brandioproductcreate__middle {
+  padding: 0 0 74px 0;
+  border-top: 1px solid var(--dim-gray);
+  border-bottom: 1px solid var(--dim-gray);
+}
+.brandioproductcreate__bottom {
+  padding-bottom: 150px;
+}
+.doubledropdowns {
+  display: flex;
+}
+
+.dropdown-lg {
+  min-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0;
+  height: 42px;
+}
+
+.multipleupload {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 160px;
+}
+.multipleupload .ant-upload-picture-card-wrapper {
+  width: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.brandioproductcreate__AiFileUpload .ant-modal-title {
+  text-align: center;
+}
+
+.brandioproductcreate__submitbox button {
+  min-width: 220px;
+}
+.brandioproductcreate__submitbox > .aifileuploadouterbtn {
+  padding: 0px;
+  border: 0px;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  border-style: solid !important;
+}
+.brandioproductcreate-percentage {
+  padding-left: 36px;
+  color: var(--suva-grey);
+  display: inline-block;
+  position: absolute;
+}
+.doubledropdowns .noborderdropdown button {
+  margin-top: -30px;
+}
+
+.noborderdropdown {
+  border-radius: 0;
+}
+
+/* media query */
+@media screen and (max-width: 767px) {
+  .brandioproductcreate {
+    text-align: center;
+    padding: 20px;
+  }
+  .brandioproductcreate__contentbox {
+    grid-template-columns: auto;
+  }
+  .brandioproductcreate__contentbox--label {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .brandioproductcreate__contentbox--value {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: center;
+  }
+  .brandioproductcreate__contentbox--value > button {
+    margin: 10px 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .noborderdropdown {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: 42px;
+  }
+  .noborderdropdown .anticon {
+    position: absolute;
+    right: 8px;
+  }
+
+  .brandioproductcreate .headingbox {
+    padding: 20px;
+  }
+  .brandioproductcreate__uploadbox {
+    flex-direction: column;
+  }
+  .brandioproductcreate__uploadbox--info {
+    margin: 20px 0;
+  }
+  .brandioproductcreate .m10 {
+    margin: 20px 0;
+  }
+  .headingbox__main {
+    font-size: 26px;
+  }
+  .primary-textarea {
+    width: auto;
+  }
+  .brandioproductcreate__heading {
+    text-align: center;
+  }
+  .doubledropdowns {
+    flex-direction: column;
+    width: 100%;
+  }
+  .doubledropdowns > div {
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .bpcreate__productinfo--value > button {
+    margin: 10px 10px 10px 0;
+  }
+  .brandiobrandcreate__checkbox {
+    padding-top: 60px;
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    line-height: 18px;
+  }
+  .brandioproductcreate__bottom {
+    padding: 20px;
+  }
+  .brandioproductcreate__submitbox {
+    display: block;
+  }
+  .brandioproductcreate__submitbox button {
+    margin: 10px 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .brandioproductcreate__middle {
+    padding: 20px;
+  }
+
+  /* multiple image upload in brandio product create page */
+  .multipleupload {
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .multipleupload .ant-upload-picture-card-wrapper {
+    margin: 20px;
+  }
+  .brandioproductcreate__contentbox--value span.ml-20 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .dropdown-lg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .brandiobrandcreate,
+  .primary-input,
+  .primary-textarea,
+  .fullinputbox,
+  .fulltextarea {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .bcollaboration-feesetting {
+    position: relative;
+  }
+  .bcollaboration-feesetting .primary-input {
+    padding-right: 40px;
+  }
+  .bcollaboration-feesetting .brandioproductcreate-percentage {
+    right: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .item--4 {
+    padding: 20px;
+  }
+  .brandioproductcreate__contentbox--value {
+    padding: 0 20px;
+  }
+  .multipleupload {
+    padding-right: 0;
+  }
+  .bpcreate__productinfo--value > button {
+    margin: 10px 10px 10px 0;
+  }
+  .brandioproductcreate__submitbox {
+    display: block;
+  }
+}

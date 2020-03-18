@@ -1,0 +1,22 @@
+@media screen and (min-width: 991px) {
+	.tile-teaser__desc {
+		margin: 0;
+		grid-row: 2/3;
+	}
+}
+@media screen and (max-width: 768px) {
+	.tile-teaser__desc {
+		margin: 0;
+		grid-row: 2/3;
+	}
+}
+@media screen and (max-width: 768px) {
+	.tile-teaser__desc {
+		font-size: 16px;
+	}
+}
+.tile-teaser__desc {
+	font-size: 16px;
+	line-height: 1.75;
+	width: 100%;
+}

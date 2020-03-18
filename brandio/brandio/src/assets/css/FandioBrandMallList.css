@@ -1,0 +1,139 @@
+.fandio__brandmall-list {
+    display: grid;
+    grid-template-columns: 283px 1fr;
+    padding-bottom: 275px;
+}
+.fandio__brandmall-contentbox {
+    background-color: var(--white-smoke);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: min-content;
+    grid-gap: 20px;
+}
+#fandiobrandmalllist .pcard__container {
+    width: 100%;
+    box-sizing: border-box;
+}
+#fandiobrandmalllist .pcard__container > .productcardlink {
+    height: 550px;
+    background-color: var(--white);
+}
+.fandio__brandmall-list .ant-menu-sub > div {
+    display: table;
+}
+.brand-intro {
+    display: grid;
+    grid-template-columns: 283px auto;
+    padding: 142px 0;
+}
+.brand-intro__logo-box {
+    text-align: center;
+    align-self: flex-start;
+}
+.brand-intro__logo {
+    width: 184.74px;
+    height: 176px;
+    border: 1px solid var(--white-smoke);
+    /* -webkit-clip-path: polygon(
+    21% 0,
+    80% 0,
+    100% 47%,
+    100% 47%,
+    81% 100%,
+    19% 100%,
+    0 50%,
+    0 50%
+  );
+  clip-path: polygon(
+    21% 0,
+    80% 0,
+    100% 47%,
+    100% 47%,
+    81% 100%,
+    19% 100%,
+    0 50%,
+    0 50%
+  ); */
+    object-fit: cover;
+}
+.brand-intro__content-box {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+.brand-intro__heading {
+    text-align: left;
+    margin: 0;
+}
+.brand-intro__photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.brand-intro__paragraph {
+    margin: 37px 0 25px 0;
+    line-height: 30px;
+    text-align: justify;
+}
+#fandiobrandmallintrophotos > .artist__photo-box {
+    margin: 0px;
+}
+
+#fandiobrandmallintrophotos > .spacer {
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .fandio__brandmall-list {
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+    .fandio__brandmall-contentbox {
+        grid-template-columns: auto;
+        padding: 10px;
+        grid-gap: 10px;
+    }
+    #fandiobrandmallintrophotos > .artist__photo-box {
+        margin: 10px 0;
+    }
+    #fandiobrandmalllist .pcard__container {
+        width: 100%;
+    }
+    .brand-intro {
+        grid-template-columns: auto;
+        padding: 30px 0;
+    }
+    .brand-intro__heading {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 18px;
+    }
+    .brand-intro__logo {
+        width: 114.74px;
+        height: 106px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .fandio__brandmall-list {
+        justify-items: center;
+        grid-template-columns: auto;
+        padding: 20px;
+    }
+    .fandio__brandmall-contentbox {
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+    #fandiobrandmallintrophotos .artist__photo-box {
+        margin: 10px 0;
+    }
+    .brand-intro {
+        justify-items: center;
+        grid-template-columns: auto;
+        padding: 50px 20px;
+    }
+}

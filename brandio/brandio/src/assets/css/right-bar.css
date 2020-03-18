@@ -1,0 +1,131 @@
+.right-bar {
+  height: 90%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-columns: 100%;
+  padding: 20px;
+}
+
+.title {
+}
+
+.title * {
+  text-align: left;
+  text-transform: none;
+}
+
+.title p {
+  color: #383838;
+}
+
+.title h4 {
+  color: #383838;
+}
+
+.color {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+}
+
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.sides-grid a {
+  color: black;
+}
+
+.editor-active {
+  border: 2px solid black;
+}
+
+.right-bar--shopping-bag {
+  align-self: end;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* .right-bar--shopping-bag {
+  align-self: end;
+}
+
+.right-bar--colors--grid {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+  grid-template-rows: 30px;
+  grid-gap: 10px;
+  background-color: var(--grey);
+  min-height: 70px;
+  padding: 10px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.right-bar--sizes--grid {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  grid-template-rows: 30px;
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+
+
+.editor-active {
+  border: 2px solid black;
+}
+
+.bx--btn__icon {
+  margin: 2px 10px;
+  line-height: 0;
+  position: absolute;
+}
+
+.right-bar--shopping-bag button {
+  position: relative;
+}
+.right-bar--shopping-bag .btn:hover .bx--btn__icon {
+  fill-opacity: 0.3;
+}
+.right-bar--shopping-bag .btn:active .bx--btn__icon {
+  fill-opacity: 1;
+}
+
+.right-bar--layers {
+  background-color: var(--smoke);
+  border-radius: 3px;
+  padding: 0px;
+}
+
+.right-bar--colors {
+  padding: 0px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+}
+
+.editor-mainheading {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 5px 10px;
+  background-color: var(--white-gainsboro);
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.title {
+  padding: 10px;
+  overflow-x: auto;
+} */

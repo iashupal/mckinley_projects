@@ -1,0 +1,151 @@
+.product-card-list-outer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brandioartistlistpcard {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--white);
+  padding: 10px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  cursor: pointer;
+}
+.no-pointer {
+  cursor: default;
+}
+.brandioartistlistpcard:hover {
+  border-color: rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+}
+
+.brandioartistlistpcard__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brandioartistlistpcard__avatarbox {
+  display: flex;
+  align-items: center;
+}
+.brandioartistlistpcard__avatar {
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.brandioartistlistpcard__name {
+  padding-left: 20px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.brandioartistlistpcard__footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  max-width: 259px;
+  transition: color 0.3s ease;
+}
+.brandioartistlistpcard__footer:hover {
+  overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1px var(--silver);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--silver);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--silver);
+}
+
+.brandioartistlistpcard__brandlogo {
+  width: 56px;
+  height: 56px;
+  margin: 10px 10px 10px 0;
+  border: 1px solid var(--white-smoke);
+  object-fit: cover;
+}
+.brandioartistlistpcard__contentbox {
+  min-height: 190px;
+  max-height: 190px;
+  overflow-y: auto;
+  margin-top: 33px;
+}
+.brandioartistlistpcard__contentbox--wrap span {
+  padding: 0 10px;
+}
+.email {
+  cursor: pointer;
+}
+.emailmodal .ant-modal-content {
+  border-radius: 0px;
+}
+.emailmodal .ant-modal-body {
+  padding: 0px;
+  height: 300px;
+}
+.brandioartistlistpcard__emailbox {
+  padding-right: 5px;
+}
+.emailmodal .ant-modal-footer {
+  padding: 0px;
+}
+.emailmodal .ant-modal-footer button:nth-child(1) {
+  display: none;
+}
+.emailmodal .ant-modal-footer button:nth-child(2),
+.emailmodal .ant-modal-footer button:nth-child(2):visited,
+.emailmodal .ant-modal-footer button:nth-child(2):focus {
+  background-color: var(--han-purple) !important;
+  color: var(--white) !important;
+  width: 100%;
+  border-radius: 0px;
+  border: 0;
+  height: 45px;
+  margin-left: 0px;
+}
+.emailmodal .ant-modal-footer button:nth-child(2):hover {
+  background-color: var(--han-purple-hover) !important;
+  border: 0;
+  color: var(--white) !important;
+  text-shadow: none;
+  cursor: pointer;
+}
+.emailmodal .ant-modal-footer button:nth-child(2):active {
+  background-color: var(--han-purple-active) !important;
+  border: 0;
+  color: var(--white) !important;
+  text-shadow: none;
+  box-shadow: none;
+  cursor: pointer;
+  outline: 0;
+}
+textarea.emailmessage {
+  border: 0px;
+  padding-bottom: 50px;
+  min-height: 250px !important;
+  max-width: 99% !important;
+}
+
+.ant-modal-body .brandioartistlistpcard__avatarbox {
+  padding: 10px;
+}

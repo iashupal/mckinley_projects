@@ -1,0 +1,56 @@
+.carousel.carousel-slider {
+  width: 100%;
+  margin: 0 auto;
+  height: 260px;
+}
+.carousel .thumbs {
+  width: 400px !important;
+}
+.carousel .thumb {
+  width: 65px;
+  height: 65px;
+}
+.carousel .thumb img {
+  width: 100%;
+  height: 100%;
+}
+.carousel .thumbs {
+  padding-left: 0;
+}
+.carouselPhoto {
+  height: 260px;
+  width: 100%;
+}
+.carouselPhoto img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.carousel.carousel-slider .control-arrow,
+.carousel .carousel-status {
+  display: none;
+}
+.carousel .thumbs-wrapper {
+  margin: 20px 0;
+}
+.carousel .control-dots {
+  display: none;
+}
+/* .document_images {
+  width: 80px;
+  height: 80px;
+} */
+
+/* register card */
+.register-card {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+/* 1510px css code */
+@media screen and (max-width: 1510px) {
+  .register-card {
+    grid-template-columns: 1fr;
+  }
+}

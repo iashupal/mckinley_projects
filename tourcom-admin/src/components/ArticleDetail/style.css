@@ -1,0 +1,21 @@
+.articleDescription {
+  padding: 15px;
+  border: 1px solid lightgray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.articleHeading {
+  font-size: 22px;
+  font-weight: 600;
+  color: gray;
+}
+.articleImg {
+  width: 100%;
+}
+.articleImg img {
+  padding: 10px;
+}
+.articleContent {
+  font-size: 16px;
+  margin-top: 20px;
+}

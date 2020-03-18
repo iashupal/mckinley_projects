@@ -1,0 +1,50 @@
+.fandio__custom-list {
+  display: grid;
+  grid-template-columns: 283px 1fr;
+  padding-bottom: 275px;
+}
+.fandio__custom-contentbox {
+  background-color: var(--white-smoke);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+}
+#fandiocustomlist .pcard__container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#fandiocustomlist .pcard__header-artists {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .fandio__custom-list {
+    justify-items: center;
+    grid-template-columns: auto;
+    padding: 20px;
+  }
+  .fandio__custom-contentbox {
+    grid-template-columns: auto;
+  }
+  #fandiocustomlist .pcard__container {
+    width: 100%;
+  }
+  .search-box-container {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fandio__custom-list {
+    justify-items: center;
+    grid-template-columns: auto;
+    padding: 20px;
+  }
+  .fandio__custom-contentbox {
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+}

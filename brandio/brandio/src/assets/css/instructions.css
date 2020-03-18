@@ -1,0 +1,47 @@
+.instructions {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.4;
+  z-index: 300;
+  grid-template-rows: 70% 30%;
+  animation-duration: 300ms;
+}
+
+.instructions__card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: 80px;
+}
+.sizes {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 200px repeat(10, 100px);
+  grid-gap: 10px;
+}
+.title {
+  font-weight: 600;
+}
+.size {
+  border: 1px solid #9a6ef7;
+  text-align: center;
+  border-radius: 100px;
+  color: #9a6ef7;
+}
+
+.pointers {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-gap: 10px;
+}
+
+.instructions__space {
+  background: black;
+  opacity: 0.6;
+}

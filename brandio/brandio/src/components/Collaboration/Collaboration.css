@@ -1,0 +1,21 @@
+.collaborations__heading {
+  text-align: center;
+  padding: 120px 0;
+  margin: 0 auto;
+}
+#CollaborationSlider .slider-wrapper ul li {
+  background-color: var(--white);
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .collaborations__heading {
+    padding: 0px 0 30px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .collaborations__heading {
+    padding: 0px 0 30px 0;
+  }
+}

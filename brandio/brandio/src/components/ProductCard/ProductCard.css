@@ -1,0 +1,138 @@
+.product-card-list-outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.pcard__container {
+    width: 23%;
+    margin: 0px;
+}
+.pcard__header-brand {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+}
+.brand-logo-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.brand-logo {
+    width: 68.74px;
+    height: 68.74px;
+    border: 1px solid var(--white-smoke);
+    /* -webkit-clip-path: polygon(
+        21% 0,
+        80% 0,
+        100% 47%,
+        100% 47%,
+        81% 100%,
+        19% 100%,
+        0 50%,
+        0 50%
+    );
+    clip-path: polygon(
+        21% 0,
+        80% 0,
+        100% 47%,
+        100% 47%,
+        81% 100%,
+        19% 100%,
+        0 50%,
+        0 50%
+    ); */
+    object-fit: cover;
+}
+.brand-name-inner {
+    display: flex;
+    width: 100%;
+    height: 62px;
+    max-height: 62px;
+    overflow: hidden;
+    align-items: center;
+    text-align: left;
+    padding: 0px 20px;
+}
+.brand-name-inner .brand-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--nero);
+    overflow: "hidden";
+    text-overflow: "ellipsis";
+}
+
+.pcard__header-artists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--light-gainsboro);
+    padding: 10px;
+}
+.pcard__header-artists--left,
+.pcard__header-artists--right {
+    padding: 0 10px;
+}
+.artist__logobox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 15px;
+}
+
+.artist__nameinner {
+    padding-left: 10px;
+    white-space: nowrap;
+    width: 55px;
+}
+.artist__logobox--logo {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+}
+.artist__logobox--name {
+    font-size: 13px;
+    color: var(--nero);
+}
+
+.pcard__product-image-box {
+    background-color: var(--white);
+}
+
+.pcard__product-image {
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+    /* object-fit: contain; */
+}
+.pcard__footer {
+    background-color: var(--white);
+}
+.pcard__product-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 200px;
+    color: var(--nero);
+}
+.pcard__product-price {
+    padding-top: 10px;
+    color: var(--nero);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100px;
+}
+
+.pcard-colors {
+    padding-top: 15px;
+}

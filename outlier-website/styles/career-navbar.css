@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+  .career__section-navbar-small {
+    display: grid;
+    height: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-top: 4rem;
+    padding: 0 700px 0 80px;
+    justify-items: center;
+  }
+
+  .career-navbar-small-content {
+    height: 4rem;
+    width: 8rem;
+    font-size: 15px;
+    font-weight: 300;
+    align-content: center;
+    font-family: Hel-Md;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .career__section-navbar-small {
+    display: grid;
+    height: 4rem;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    margin-top: 4rem;
+    padding: 0 200px 0 30px;
+    justify-items: center;
+  }
+
+  .career-navbar-small-content {
+    height: 4rem;
+    width: 8rem;
+    font-size: 12px;
+    font-weight: 300;
+    align-content: center;
+    margin: 0 auto;
+  }
+}

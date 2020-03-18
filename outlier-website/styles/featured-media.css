@@ -1,0 +1,17 @@
+.featured-media {
+	display: block;
+	width: var(--container-width);
+	max-width: var(--container-max-width);
+	margin: 0 auto;
+	justify-self: center;
+	margin: 2rem auto;
+}
+
+.featured-media--video {
+	height: 45vmax;
+}
+.featured-media-with-card > .featured_image.featured_image {
+	margin: 50px 0 100px;
+	width: 100%;
+	max-width: 100%;
+}

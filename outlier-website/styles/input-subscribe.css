@@ -1,0 +1,41 @@
+.input-subscribe {
+  display: grid;
+  grid-template-columns: 15rem 1fr 5rem;
+  width: 100%;
+  max-width: 550px;
+  height: 3rem;
+  margin: 24px 0;
+  border-bottom: 1px solid #333333;
+}
+
+.input-subscribe--focus {
+  border-color: #fec355;
+}
+
+.input-subscribe__input {
+  width: 100%;
+  height: 3rem;
+  border: none;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.input-subscribe__submit {
+  width: 5rem;
+  height: 3rem;
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-column: 3;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border-bottom: 3px solid transparent;
+}
+
+.input-subscribe__submit:hover {
+  border-color: #fec355;
+}

@@ -1,0 +1,11 @@
+.table_articleDetail {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table_articleDetail td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}

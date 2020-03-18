@@ -1,0 +1,57 @@
+@media screen and (min-width: 992px) {
+  .logo-section {
+    justify-items: left;
+  }
+}
+
+.logo-section {
+  --logo-section__logo-width: 10rem;
+  display: grid;
+  width: var(--container-width);
+  max-width: var(--container-max-width);
+  margin: 50px auto;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(var(--logo-section__logo-width), 1fr)
+  );
+  padding: 10px 0;
+  grid-gap: 24px;
+  justify-items: center;
+  margin-bottom: 0px;
+  /* background: #efefef; */
+}
+
+.logo-section__logo {
+  /* height: 25px; */
+  width: var(--logo-section__logo-width);
+  vertical-align: top;
+  align-items: center;
+}
+
+.brandLogos {
+  width: 100%;
+  display: block;
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 4%; */
+}
+
+.brandLogo {
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+}
+
+.brandLogo img {
+  width: 140px;
+}
+
+@media (max-width: 767px) {
+  .brandLogo {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .brandLogo {
+    width: 33.3%;
+  }
+}

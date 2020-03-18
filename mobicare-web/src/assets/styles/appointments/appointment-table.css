@@ -1,0 +1,83 @@
+.appointment-table {
+  justify-content: center;
+  margin-top: 15px;
+  background-color: white;
+  /* box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+  /* -moz-box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+  /* -webkit-box-shadow: 0px 0px 5px 0px rgba(196, 189, 189, 0.69); */
+}
+
+.appointment-table tr:hover {
+  cursor: pointer;
+}
+
+.appointment-table .ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+  /* background: #ffdeb2; */
+  background: #e0e0e0;
+}
+
+.appointment-table .column-header {
+  font-weight: 500;
+  text-align: center;
+  /* color: #626262; */
+  color: black;
+}
+
+.appointment-table .ant-table-thead > th {
+  background: #f6f6f6;
+}
+
+.appointment-table .ant-table-thead > tr > th {
+  padding: 12px;
+  border-bottom: 10px solid #f0f0f0;
+}
+
+.appointment-table .normal-text {
+  font-weight: normal;
+}
+
+.appointment-table .material-icons.chat-icon {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.appointment-table .active-point {
+  width: 14px;
+  height: 14px;
+  box-shadow: 0 1px 7px 3px rgba(255, 158, 26, 0.3);
+  background-color: #ff9e1a;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+.appointment-table .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #e8e8e8;
+  color: black;
+  font-size: 12px;
+}
+
+.appointment-table .mr-5 {
+  margin-right: 5px;
+}
+
+.appointment-table .ant-table-thead > tr > th.no-header-background {
+  background-color: #fff;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.no-drop-shadow {
+  box-shadow: none;
+}
+
+.appointment-table .message-btn-width {
+  /* width: 35%; */
+  height: 35px;
+  background-color: #f0f0f0;
+  line-height: 1;
+}
+.appointment-table .message-btn-width:hover,
+.appointment-table .message-btn-width:focus,
+.appointment-table .message-btn-width:active {
+  border-color: #c0c0c0;
+}

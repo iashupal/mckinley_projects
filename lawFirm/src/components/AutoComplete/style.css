@@ -1,0 +1,22 @@
+.searchIcon {
+  position: absolute;
+  top: 7px;
+  right: 13px;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+select__menu-list::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+  border-radius: 5px !important;
+}
+select__menu-list::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+select__menu-list::-webkit-scrollbar-thumb {
+  background: #888 !important;
+}
+select__menu-list::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+}
