@@ -6,7 +6,7 @@
     "antd": "^3.19.1",
     "array-move": "^2.2.0",
     "axios": "^0.18.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.8.6",
     "react-csv": "^1.1.1",
     "react-datetime": "^2.16.3",
